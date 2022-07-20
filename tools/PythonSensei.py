@@ -38,7 +38,8 @@ if __name__ == "__main__":
     sensei.select_program()
 
 else:
-    import tools.misc
+    # print("no")
+    from tools.misc import *
     from tools.ProgramViewer import ProgramViewer
     from tools.ProgramLauncher import ProgramLauncher
     import sys, gc

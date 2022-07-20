@@ -8,7 +8,21 @@
 
 PythonSensei is a program that runs 100 Python projects which were created over the course of 100 Days.<br>The 100 programs that PythonSensei can run are primarily based on [Angela Yu's 100 Days of Code Udemy Course](https://www.udemy.com/course/100-days-of-code), range from beginner to professional, and are optomised to be run via selection on a command line interface.
 
-Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. Please also note that the files are being checked and re-uploaded, and all 100 programs may not be readily available.
+Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. Please also note that the files are being checked and re-uploaded due to deprecated dependencies, and consequently, not all 100 programs may not be readily available.
+Last check - 20/07/22 Up to day 20.
+
+
+
+NOTES:
+Day 13 - Scapy Not working - DAY REMOVED FOR NOW AND SCAPY UNINSTALLED
+Day 17 - Goes until Q50, need to add quit button and show how many q left
+All tkinter (D19,20) - focus no longer set to new open window
+
+
+
+
+
+To run the program launcher locally, you must have Python installed and type 'python start.py' from the root directory (where start.py is located).
 
 Here is a demo of how the program works:
 
@@ -171,9 +185,9 @@ To name a few key components:
 
 To locally run the programs in PythonSensei, you require a total of 36 credential files. For obvious security reasons, these files have been gitignored and will not be made publicly available.
 
-To circumvent errors due to these missing files, I had planned to create an CredentialCollector.py file which would assist in creating the necessary files by prompting you for your own credentials for each file in the terminal. However, I abandoned the idea and opted instead to create a more visually comprehensible table here and an accompanying program to create the files where credentials should be copy pasted to.
-
-Regardless, manually filling in 36 credentials will take time. If you still wish to continue, follow these steps:
+You must fill out a file with your own credentials for each program to work locally.
+I am currently implementing a fix so that you can still run other programs that do not require credentials. You will be alerted if your credentials are missing.
+You must also install Ncap for Scapy.
 
 1. Generate and Fill Missing Files
 
