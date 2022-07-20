@@ -1,0 +1,28 @@
+{
+    "Facebook": {
+        "be@outlook.com": {
+            "password": "$(Uo#JR)93OEFFp8"
+        },
+        "base@outlook.com": {
+            "password": "_q[=S7u~4Q|!dW02"
+        }
+    },
+    "Google": {
+        "base@outlook.com": {
+            "password": "5!stgph1x&MxO#"
+        },
+        "abc@xxx.com": {
+            "password": "*ah4Rd6Yn0w)!J"
+        }
+    },
+    "Twillio": {
+        "base@outlook.com": {
+            "password": "1ct]TZ-8]>^g22}C"
+        }
+    },
+    "Facebook.com": {
+        "base@outlook.com": {
+            "password": "lV:40%LXzo_/&>20"
+        }
+    }
+}

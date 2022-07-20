@@ -13,10 +13,13 @@ Last check - 20/07/22 Up to day 20.
 
 
 
-NOTES:
+NOTES/BUGS:
 Day 13 - Scapy Not working - DAY REMOVED FOR NOW AND SCAPY UNINSTALLED
 Day 17 - Goes until Q50, need to add quit button and show how many q left
-All tkinter (D19,20) - focus no longer set to new open window
+All tkinter (D19, 20, 21, 22, 25, 27, 28, 29, 30) - focus no longer set to new open window
+Day 22 - Error shown on close (tclerror), and strange speed up of ball
+Day 23 - Error on close
+Day 25 - Error shown on close
 
 
 
