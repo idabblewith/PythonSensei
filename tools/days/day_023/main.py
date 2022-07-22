@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Jarid Prince
+
 from days.day_023.files.helpers import *
 from days.day_023.files.player import Player
 from days.day_023.files.car_manager import CarManager

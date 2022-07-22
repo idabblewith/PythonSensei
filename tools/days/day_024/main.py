@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Jarid Prince
+
 from misc import *
 from days.day_024.files import *
 

@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Jarid Prince
+
 from days.day_021.files.helpers import *
 from days.day_021.files.food import Food
 from days.day_021.files.score import Score

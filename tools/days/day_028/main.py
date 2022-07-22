@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Jarid Prince
+
 from days.day_028.files.helpers import *
 
 # ---------------------------- UI SETUP/run ------------------------------- #

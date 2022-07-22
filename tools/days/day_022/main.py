@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Jarid Prince
+
 from days.day_022.files.helpers import *
 from days.day_022.files.paddle import Paddle
 from days.day_022.files.score import Score

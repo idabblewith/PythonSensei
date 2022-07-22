@@ -14,7 +14,6 @@ Last check - 20/07/22 Up to day 20.
 
 
 NOTES/BUGS:
-Day 13 - Scapy Not working - DAY REMOVED FOR NOW AND SCAPY UNINSTALLED
 Day 17 - Goes until Q50, need to add quit button and show how many q left
 All tkinter (D19, 20, 21, 22, 25, 27, 28, 29, 30) - focus no longer set to new open window
 Day 22 - Error shown on close (tclerror), and strange speed up of ball
@@ -22,7 +21,15 @@ Day 23 - Error on close
 Day 25 - Error shown on close
 
 
-
+Day 13 - Scapy Not working - DAY REMOVED FOR NOW AND SCAPY UNINSTALLED
+D32 - secrets
+D33 - Secrets Day
+D35 - Secrets day
+D36 - Secrets Day
+D37 - Secrets Day
+D38 - Secrets Day
+D39 - Secrets Day (files dm)
+D40 - Secrets Day
 
 
 To run the program launcher locally, you must have Python installed and type 'python start.py' from the root directory (where start.py is located).
