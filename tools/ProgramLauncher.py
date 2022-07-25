@@ -40,16 +40,16 @@ from days.day_037.main import day_037
 from days.day_038.main import day_038
 from days.day_039.main import day_039
 from days.day_040.main import day_040
-# from days.day_041.main import day_041
-# from days.day_042.main import day_042
-# from days.day_043.main import day_043
-# from days.day_044.main import day_044
-# from days.day_045.main import day_045
-# from days.day_046.main import day_046
-# from days.day_047.main import day_047
-# from days.day_048.main import day_048
-# from days.day_049.main import day_049
-# from days.day_050.main import day_050
+from days.day_041.main import day_041
+from days.day_042.main import day_042
+from days.day_043.main import day_043
+from days.day_044.main import day_044
+from days.day_045.main import day_045
+from days.day_046.main import day_046
+from days.day_047.main import day_047
+from days.day_048.main import day_048
+from days.day_049.main import day_049
+from days.day_050.main import day_050
 # from days.day_051.main import day_051
 # from days.day_052.main import day_052
 # from days.day_053.main import day_053
@@ -106,8 +106,14 @@ import os, sys, traceback, re
 class ProgramLauncher():
     def __init__(self, misc):
         self.misc = misc
-        self.DAYS = [day_001, day_002, day_003, day_004, day_005, day_006, day_007, day_008, day_009, day_010, day_011, day_012, day_013, day_014, day_015, day_016, day_017, day_018, day_019, day_020, day_021, day_022, day_023, day_024, day_025, day_026, day_027, day_028, day_029, day_030, day_031, day_032, day_033, day_034, day_035, day_036, day_037, day_038, day_039, day_040]
-    #   day_041, day_042, day_043, day_044, day_045, day_046, day_047, day_048, day_049, day_050, day_051, day_052, day_053, day_054, day_055, day_056, day_057, day_058, day_059, day_060, day_061, day_062, day_063, day_064, day_065, day_066, day_067, day_068, day_069, day_070, day_071, day_072, day_073, day_074, day_075, day_076, day_077, day_078, day_079, day_080, day_081, day_082, day_083, day_084, day_085, day_086, day_087, day_088, day_089, day_090, day_091, day_092, day_093, day_094, day_095, day_096, day_097, day_098, day_099, day_100
+        self.DAYS = [
+            day_001, day_002, day_003, day_004, day_005, day_006, day_007, day_008, day_009, day_010, \
+            day_011, day_012, day_013, day_014, day_015, day_016, day_017, day_018, day_019, day_020, \
+            day_021, day_022, day_023, day_024, day_025, day_026, day_027, day_028, day_029, day_030, \
+            day_031, day_032, day_033, day_034, day_035, day_036, day_037, day_038, day_039, day_040, \
+            day_041, day_042, day_043, day_044, day_045, day_046, day_047, day_048, day_049, day_050
+            ]
+    #   , day_051, day_052, day_053, day_054, day_055, day_056, day_057, day_058, day_059, day_060, day_061, day_062, day_063, day_064, day_065, day_066, day_067, day_068, day_069, day_070, day_071, day_072, day_073, day_074, day_075, day_076, day_077, day_078, day_079, day_080, day_081, day_082, day_083, day_084, day_085, day_086, day_087, day_088, day_089, day_090, day_091, day_092, day_093, day_094, day_095, day_096, day_097, day_098, day_099, day_100
         self.program_id = None
         self.selected = None
 

@@ -30,6 +30,9 @@ D37 - Secrets Day
 D38 - Secrets Day
 D39 - Secrets Day (files dm)
 D40 - Secrets Day
+NEED CHROME INSTALLED 
+D46 - Secrets Day
+D48 - Chrome Driver error
 
 
 To run the program launcher locally, you must have Python installed and type 'python start.py' from the root directory (where start.py is located).

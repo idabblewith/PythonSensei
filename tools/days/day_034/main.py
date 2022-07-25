@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Jarid Prince
+
 from days.day_034.files.helpers import *
 from days.day_034.files.question_model import Question
 from days.day_034.files.data import get_data

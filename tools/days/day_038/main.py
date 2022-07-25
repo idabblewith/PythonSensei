@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Jarid Prince
+
 from days.day_038.files.helpers import *
 
 def day_038():

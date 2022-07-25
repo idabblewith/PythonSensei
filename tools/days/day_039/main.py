@@ -1,3 +1,5 @@
+# Copyright (c) 2022 Jarid Prince
+
 from days.day_039.files.helpers import *
 # from days.day_039.files.data_manager import DataManager
 # from days.day_039.files.flight_search import FlightSearch
