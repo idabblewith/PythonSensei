@@ -73,7 +73,7 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 23  | [TURTLE CROSSING CAPSTONE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_023/main.py)  | BEGINNER     | TKINTER, TURTLE                            |
 | Day 24  | [MAIL MERGER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_024/main.py)               | BEGINNER     |                                            |
 | Day 25  | [US STATES GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_025/main.py)            | INTERMEDIATE | PANDAS                                     |
-| Day 26  | [NATO ALPHABET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_026/main.py)             | INTERMEDIATE | PANDAS                                     |
+<!-- | Day 26  | [NATO ALPHABET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_026/main.py)             | INTERMEDIATE | PANDAS                                     |
 | Day 27  | [MILES TO KM](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_027/main.py)               | INTERMEDIATE | TKINTER                                    |
 | Day 28  | [POMODORO](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_028/main.py)                  | INTERMEDIATE | TKINTER                                    |
 | Day 29  | [PASS MANAGER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_029/main.py)              | INTERMEDIATE | TKINTER                                    |
@@ -147,7 +147,7 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 97  | [LIFE AUTOMATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_097/main.py)           | PORTFOLIO    | UNSET                                      |
 | Day 98  | [SPACE RACE DATA](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_098/main.py)           | PORTFOLIO    | UNSET                                      |
 | Day 99  | [POLICE DEATHS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_099/main.py)             | PORTFOLIO    | UNSET                                      |
-| Day 100 | [PREDICT SALARIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_100/main.py)          | PORTFOLIO    | UNSET                                      |
+| Day 100 | [PREDICT SALARIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_100/main.py)          | PORTFOLIO    | UNSET                                      | -->
 
 ## Tech Stack
 
