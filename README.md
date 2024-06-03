@@ -174,19 +174,19 @@ To name a few key components:
 
 ### Data Science
 
-- **NumPy** as our database of choice
-- **Plotly** as our database of choice
-- **Scikit Learn** as our database of choice
-- **Pandas** as our database of choice
-- **Matplotlib** as our database of choice
-- **Seaborn** as our database of choice
+- **NumPy** for numerical computing
+- **Plotly** for data visualisation on charts
+- **Scikit Learn** for machine learning
+- **Pandas** for manipulating dataframes
+- **Matplotlib** for data visualisation
+- **Seaborn** for statistical data visualisation and analysis
 
 ### GUI, Automation and Scraping
 
-- **Selenium** as our database of choice
-- **Beautiful Soup** as our database of choice
-- **TKinter** as primary python API library
-- **Turtle** as primary python API library
+- **Selenium** to scan and scrape web pages
+- **Beautiful Soup** to parse HTML and use with Selenium
+- **TKinter** for graphics and GUI
+- **Turtle** for graphics and GUI
 
 ## Local Development Setup
 
