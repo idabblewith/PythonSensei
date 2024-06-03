@@ -1,37 +1,46 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 from days.day_010.files.helpers import *
 
+
 def add(n1, n2):
-  return n1+n2
+    return n1 + n2
+
 
 def subtract(n1, n2):
-  return n1 - n2
+    return n1 - n2
+
 
 def divide(n1, n2):
-  return n1 / n2
+    return n1 / n2
+
 
 def multiply(n1, n2):
-  return n1 * n2
+    return n1 * n2
+
 
 operations = {
-  "+": add,
-  "-": subtract,
-  "*": multiply,
-  "/": divide,
-  }
+    "+": add,
+    "-": subtract,
+    "*": multiply,
+    "/": divide,
+}
+
 
 def day_010():
     title("BASIC CALCULATOR")
     calculator_logo()
     num1 = float(nli("What's the first number?"))
-    print('\n')
+    print("\n")
     shouldcontinue = True
 
     while shouldcontinue:
         for symbol in operations:
             print(symbol)
         operation_symb = nli("Select an operator from above:")
+        while operation_symb not in operations:
+            print("Invalid operator. Please select a valid operator.")
+            operation_symb = nli("Select an operator from above: ")
         num2 = float(nli("What's the second number?"))
         calculation_func = operations[operation_symb]
         answer = calculation_func(num1, num2)
@@ -41,7 +50,6 @@ def day_010():
         continuep = nli(f"Keep going with current answer ({answer})?\ny or n?\n")
         if continuep in yes_array:
             num1 = float(answer)
-        else: 
-            cls() 
+        else:
+            cls()
             shouldcontinue = False
-            

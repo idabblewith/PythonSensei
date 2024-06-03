@@ -1,12 +1,14 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 from days.day_009.files.helpers import *
+
 
 def day_009():
     gavel_logo()
     title("Silent Bid")
 
     bids = {}
+
     def sequence():
         name = nli("What is your name?")
         bid = int(nli("What is your bid? Type Numbers only."))
@@ -23,6 +25,7 @@ def day_009():
                 if bid_amount > highest_bid:
                     highest_bidder = bidder
                     highest_bid = bid_amount
-       
-            nls(f'The highest bid is {highest_bid} from {highest_bidder}!')
+
+            nls(f"The highest bid is {highest_bid} from {highest_bidder}!")
+
     sequence()

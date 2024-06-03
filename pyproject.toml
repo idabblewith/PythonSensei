@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pythonsensei"
+version = "0.1.0"
+description = "Python Sensei - 100 Days of Python"
+authors = ["idabblewith <109533655+idabblewith@users.noreply.github.com>"]
+license = "UNLICENSED"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+colorgram-py = "^1.2.0"
+pandas = "^2.2.2"
+pyperclip = "^1.8.2"
+requests = "^2.32.3"
+twilio = "^9.1.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.2.2"
+spotipy = "^2.24.0"
+selenium = "^4.21.0"
+undetected-chromedriver = "^3.5.5"
+scapy = "^2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

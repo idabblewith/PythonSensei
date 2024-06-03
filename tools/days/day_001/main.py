@@ -1,6 +1,7 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 from misc import *
+
 
 def day_001():
     title("Band Name Generator")

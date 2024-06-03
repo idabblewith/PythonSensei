@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 from days.day_014.files.helpers import *
 
@@ -29,6 +29,7 @@ def new_sequence(previous_array, b_array):
     print(f"Against B: {bname}, a {bdesc} from {bcountry}.")
     return a, b
 
+
 # compare
 def compare(previous_array, a, b):
     draw = False
@@ -41,25 +42,30 @@ def compare(previous_array, a, b):
     previous_array.append(b)
     return atop, draw
 
-# check answer  
-def check_answer(atop, draw, score, gg): 
-	answer = nli("Who has more followers? Type 'A' or 'B':\n")
 
-	cls()
-	if ((answer == "b" or answer == "B") and atop == True) or ((answer == "a" or answer == "A") and atop == False) :
-		gg = True
-		nls(f"Sorry that's wrong. Final Score: {score}")
-		previous_array = []
-		score = 0
-	elif (draw == True):
-		nls("They're actually the same! Who'd have thunk it!")
-		gg = False
-	elif ((answer == "b" or answer == "B") and atop == False) or ((answer == "a" or answer == "A") and atop == True):
-		# higher_or_lower()
-		score+=1
-		nls(f"You're right! Current score: {score}")
-		gg = False
-	return score, gg
+# check answer
+def check_answer(atop, draw, score, gg):
+    answer = nli("Who has more followers? Type 'A' or 'B':\n")
+
+    cls()
+    if ((answer == "b" or answer == "B") and atop == True) or (
+        (answer == "a" or answer == "A") and atop == False
+    ):
+        gg = True
+        nls(f"Sorry that's wrong. Final Score: {score}")
+        previous_array = []
+        score = 0
+    elif draw == True:
+        nls("They're actually the same! Who'd have thunk it!")
+        gg = False
+    elif ((answer == "b" or answer == "B") and atop == False) or (
+        (answer == "a" or answer == "A") and atop == True
+    ):
+        # higher_or_lower()
+        score += 1
+        nls(f"You're right! Current score: {score}")
+        gg = False
+    return score, gg
 
 
 # looping if not incorrect, ending if incorrect
@@ -74,6 +80,9 @@ def day_014():
     gg = False
 
     while gg == False:
-        a,b = new_sequence(previous_array, b_array)
+        a, b = new_sequence(previous_array, b_array)
         atop, draw = compare(previous_array, a, b)
-        score, gg, = check_answer(atop, draw, score, gg)
+        (
+            score,
+            gg,
+        ) = check_answer(atop, draw, score, gg)

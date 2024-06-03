@@ -1,20 +1,21 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 from days.day_021.files.helpers import *
 from days.day_021.files.food import Food
 from days.day_021.files.score import Score
 from days.day_021.files.snake import Snake
 
+
 def day_021():
     title("SNAKE GAME P2")
     screen = Screen()
-    screen.setup(800,800)
+    screen.setup(800, 800)
     screen.bgcolor("black")
     screen.colormode(255)
     screen.title("Snake Game")
     rootwindow = screen.getcanvas().winfo_toplevel()
-    rootwindow.call('wm', 'attributes', '.', '-topmost', '1')
-    rootwindow.call('wm', 'attributes', '.', '-topmost', '0')
+    rootwindow.call("wm", "attributes", ".", "-topmost", "1")
+    rootwindow.call("wm", "attributes", ".", "-topmost", "0")
     screen.tracer(0)
 
     snake = Snake()
@@ -38,8 +39,13 @@ def day_021():
             snake.extend()
             score.updatescore()
 
-        if snake.head.xcor() > 380 or snake.head.xcor() < -380 or snake.head.ycor() > 380 or snake.head.ycor() < -380:
-            gameon =False
+        if (
+            snake.head.xcor() > 380
+            or snake.head.xcor() < -380
+            or snake.head.ycor() > 380
+            or snake.head.ycor() < -380
+        ):
+            gameon = False
 
         for segment in snake.snake_seg[1:]:
             if snake.head.distance(segment) < 10:

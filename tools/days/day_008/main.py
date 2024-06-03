@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 from days.day_008.files.helpers import *
 
@@ -13,7 +13,9 @@ direction_attempts = []
 
 def ask_direction():
     directions = ["encrypt", "e", "decrypt", "d"]
-    direction = nli("Would you like to decrypt or encrypt?\nType 'decrypt' or 'd' for decrypt.\nType 'encrypt' or 'e' for encrypt.\n")
+    direction = nli(
+        "Would you like to decrypt or encrypt?\nType 'decrypt' or 'd' for decrypt.\nType 'encrypt' or 'e' for encrypt.\n"
+    )
     direction_attempts.append(direction)
     if direction_attempts[-1] not in directions:
         cls()
@@ -30,7 +32,7 @@ def ask_msg():
 def ask_rotation():
     rotation_key = ""
     ready = False
-    
+
     while ready == False:
         try:
             rotation_key = nli("What is the rotation key?")
@@ -50,7 +52,7 @@ def ask_rotation():
 def cipher(direction, msg, rotation, change_text_file):
     altered = ""
     if direction == "decrypt" or direction == "d" and change_text_file == False:
-        rotation*=-1
+        rotation *= -1
 
     for character in msg:
         if character == " ":
@@ -60,27 +62,27 @@ def cipher(direction, msg, rotation, change_text_file):
             new_index = int(norm_index) + int(rotation)
             if new_index > 25:
                 new_index -= len(ALPHAS_LOWER)
-            altered+=ALPHAS_LOWER[new_index]
+            altered += ALPHAS_LOWER[new_index]
         elif character in ALPHAS_CAPS:
             norm_index = ALPHAS_CAPS.index(character)
-            new_index = int(norm_index) + int(rotation) 
+            new_index = int(norm_index) + int(rotation)
             if new_index > 25:
                 new_index -= len(ALPHAS_CAPS)
-            altered+=ALPHAS_CAPS[new_index]
+            altered += ALPHAS_CAPS[new_index]
         elif character in LEAVE_BE:
-            altered+= character
+            altered += character
     return altered
 
 
 def write_to_file(altered_text, direction, change_text_file):
-    if direction == "encrypt" or direction == "e" :
+    if direction == "encrypt" or direction == "e":
         file_name = "./tools/days/day_008/files/EncryptedText.txt"
     elif direction == "decrypt" or direction == "d":
         if change_text_file == True:
             file_name = "./tools/days/day_008/files/EncryptedText.txt"
         else:
             file_name = "./tools/days/day_008/files/DecryptedText.txt"
-    with open(file_name, 'w') as f:
+    with open(file_name, "w") as f:
         f.write(altered_text)
         f.close()
         nls(f"Successfully wrote to file: '{file_name}'")
@@ -90,14 +92,14 @@ def day_008():
     title("SIMPLE CAESAR'S CIPHER")
     cipher_logo()
     direction = ask_direction()
-    change_text_file = False                                              
+    change_text_file = False
     if direction == "encrypt" or direction == "e":
         msg = ask_msg()
     elif direction == "decrypt" or direction == "d":
         file_to_decrypt = "./tools/days/day_008/files/EncryptedText.txt"
-        if os.path.exists(file_to_decrypt):            
+        if os.path.exists(file_to_decrypt):
             f = open(file_to_decrypt, "r")
-            msg = f.read()   
+            msg = f.read()
             nls(f"Encrypted Text: {msg}")
             a = nli("Press enter to continue.")
         else:
