@@ -1,4 +1,5 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
+
 
 class Question:
     def __init__(self, text, answer):

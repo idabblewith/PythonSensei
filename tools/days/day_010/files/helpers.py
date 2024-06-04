@@ -1,5 +1,6 @@
 from misc import title, nli, nls, cls, yes_array
 
+
 def calculator_logo():
     logo = """
  _____________________

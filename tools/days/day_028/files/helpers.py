@@ -1,6 +1,7 @@
 from misc import nls, nli, title, cls
 from tkinter import *
 import math
+
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"

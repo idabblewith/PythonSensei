@@ -4,8 +4,11 @@ STARTING_POSITION = (0, -280)
 MOVE_DISTANCE = 10
 FINISH_LINE_Y = 280
 
+
 class Player(Turtle):
-    def __init__(self, ):
+    def __init__(
+        self,
+    ):
         super().__init__()
         self.start = STARTING_POSITION
         self.move_distance = MOVE_DISTANCE
@@ -23,6 +26,6 @@ class Player(Turtle):
             return True
         else:
             return False
-      
+
     def back_to_start(self):
         self.goto(self.start)

@@ -1,5 +1,6 @@
 from days.day_022.files.helpers import *
 
+
 class Score(Turtle):
     def __init__(self):
         super().__init__()
@@ -20,7 +21,7 @@ class Score(Turtle):
     def point(self, side):
         self.side = side
         if self.side == "left":
-            self.l_score+=1
+            self.l_score += 1
         elif self.side == "right":
-            self.r_score+=1
+            self.r_score += 1
         self.updatescore()

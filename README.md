@@ -9,17 +9,18 @@
 PythonSensei is a program that runs 100 Python projects which were created over the course of 100 Days.<br>The 100 programs that PythonSensei can run are primarily based on [Angela Yu's 100 Days of Code Udemy Course](https://www.udemy.com/course/100-days-of-code), range from beginner to professional, and are optomised to be run via selection on a command line interface.
 
 Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. Please also note that the files are being checked and re-uploaded due to deprecated dependencies, and consequently, not all 100 programs are readily available.
-Last check - 04/06/24 Up to day 25.
+
+Last check - 04/06/24 
+All functional to day 35.
 
 
 NOTES:
 To run the program launcher locally, you must have Python installed and type 'python start.py' from the root directory (where start.py is located).
-Note that you need to install npcap locally to run day 13/scapy (https://npcap.com)
+- Note that you need to install npcap locally to run Day 13/scapy (https://npcap.com)
+- Note that you need to set up your email account to allow third party apps for Day 31 (for google you must setup SMTP and app passwords for your account https://myaccount.google.com/u/2/apppasswords)
+- Note that you need to get Twilio and OpenWeather API keys from Day 32 onward.
 
 
-D32 - secrets
-D33 - Secrets Day
-D35 - Secrets day
 D36 - Secrets Day
 D37 - Secrets Day
 D38 - Secrets Day
@@ -73,7 +74,7 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 23  | [TURTLE CROSSING CAPSTONE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_023/main.py)  | BEGINNER     | TKINTER, TURTLE                            |
 | Day 24  | [MAIL MERGER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_024/main.py)               | BEGINNER     |                                            |
 | Day 25  | [US STATES GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_025/main.py)            | INTERMEDIATE | PANDAS                                     |
-<!-- | Day 26  | [NATO ALPHABET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_026/main.py)             | INTERMEDIATE | PANDAS                                     |
+| Day 26  | [NATO ALPHABET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_026/main.py)             | INTERMEDIATE | PANDAS                                     |
 | Day 27  | [MILES TO KM](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_027/main.py)               | INTERMEDIATE | TKINTER                                    |
 | Day 28  | [POMODORO](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_028/main.py)                  | INTERMEDIATE | TKINTER                                    |
 | Day 29  | [PASS MANAGER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_029/main.py)              | INTERMEDIATE | TKINTER                                    |
@@ -83,7 +84,7 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 33  | [ISS TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_033/main.py)               | INTERMEDIATE | SMTPLIB                                    |
 | Day 34  | [QUIZZLER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_034/main.py)                  | INTERMEDIATE | REQUESTS                                   |
 | Day 35  | [RAIN ALERT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_035/main.py)                | INTERMEDIATE | REQUESTS, TWILIO                           |
-| Day 36  | [STOCK NOTIFIER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_036/main.py)            | INTERMEDIATE | REQUESTS, TWILIO                           |
+<!-- | Day 36  | [STOCK NOTIFIER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_036/main.py)            | INTERMEDIATE | REQUESTS, TWILIO                           |
 | Day 37  | [PIXELA TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_037/main.py)            | INTERMEDIATE | REQUESTS                                   |
 | Day 38  | [NLP WORKOUT TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_038/main.py)       | INTERMEDIATE | REQUESTS                                   |
 | Day 39  | [FLIGHT SCANNER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_039/main.py)            | INTERMEDIATE | REQUESTS, TWILIO                           |

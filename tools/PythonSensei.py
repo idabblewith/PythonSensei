@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 # from tkinter.constants import N
 

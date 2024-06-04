@@ -1,5 +1,6 @@
 from turtle import Turtle
 
+
 class Paddle(Turtle):
     def __init__(self, alignment):
         super().__init__()

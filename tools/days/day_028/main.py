@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 from days.day_028.files.helpers import *
 
@@ -9,29 +9,30 @@ def day_028():
     title("POMODORO TIMER")
     global pomodoro_reps
     pomodoro_reps = 0
-    global pomodoro_timer 
+    global pomodoro_timer
     pomodoro_timer = None
 
     window = Tk()
     window.title("Pomodoro")
-    window.config(padx=100,pady=50, bg=YELLOW)
+    window.config(padx=100, pady=50, bg=YELLOW)
     window.lift()
     window.attributes("-topmost", True)
-    window.after_idle(window.attributes, '-topmost', False)
+    window.after_idle(window.attributes, "-topmost", False)
 
-    
-    # ---------------------------- TIMER RESET ------------------------------- # 
+    # ---------------------------- TIMER RESET ------------------------------- #
     def reset_timer():
-        canvas.itemconfig(timer_text, text="00:00") 
+        canvas.itemconfig(timer_text, text="00:00")
         completed_label.config(text="")
         global pomodoro_reps
         global pomodoro_timer
         window.after_cancel(pomodoro_timer)
         pomodoro_reps = 0
         timer_label.config(text="Timer", fg=GREEN)
+        start_button.config(state="normal")
 
-    # ---------------------------- TIMER MECHANISM ------------------------------- # 
+    # ---------------------------- TIMER MECHANISM ------------------------------- #
     def start_timer():
+        start_button.config(state="disabled")
         short_break_secs = SHORT_BREAK_MIN * 60
         long_break_secs = LONG_BREAK_MIN * 60
         work_secs = WORK_MIN * 60
@@ -49,33 +50,33 @@ def day_028():
             timer_label.config(text="Work", fg=GREEN)
             countdown(work_secs)
 
-
-    # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
+    # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
     def countdown(count):
-        count_min = math.floor(count/60)
+        count_min = math.floor(count / 60)
         count_sec = count % 60
         if count_sec < 10:
             count_sec = f"0{count_sec}"
 
         canvas.itemconfig(timer_text, text=f"{count_min}:{count_sec}")
-        if count >0:
+        if count > 0:
             global pomodoro_timer
-            pomodoro_timer = window.after(1000, countdown, count-1)
+            pomodoro_timer = window.after(1000, countdown, count - 1)
         else:
             start_timer()
             mark = ""
-            work_sessions = math.floor(pomodoro_reps/2)
+            work_sessions = math.floor(pomodoro_reps / 2)
             for _ in range(work_sessions):
-                mark+= "✓"
+                mark += "✓"
                 completed_label.config(text=f"{mark}")
 
-
-    # ---------------------------- UI SETUP ------------------------------- # 
+    # ---------------------------- UI SETUP ------------------------------- #
 
     canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
     tomato_img = PhotoImage(file="./tools/days/day_028/files/tomato.png")
     canvas.create_image(100, 112, image=tomato_img)
-    timer_text = canvas.create_text(100, 130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold"))
+    timer_text = canvas.create_text(
+        100, 130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold")
+    )
     canvas.grid(column=2, row=2)
 
     timer_label = Label(fg=GREEN, bg=YELLOW, text="Timer", font=(FONT_NAME, 35, "bold"))
@@ -83,9 +84,8 @@ def day_028():
     completed_label = Label(text="", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 30, "bold"))
     completed_label.grid(column=2, row=4)
 
-    button1 = Button(text="Start", command=start_timer)
-    button2 = Button(text="Reset", command=reset_timer)
-    button1.grid(column=1, row=3)
-    button2.grid(column=3, row=3)
+    start_button = Button(text="Start", command=start_timer)
+    reset_button = Button(text="Reset", command=reset_timer)
+    start_button.grid(column=1, row=3)
+    reset_button.grid(column=3, row=3)
     window.mainloop()
-

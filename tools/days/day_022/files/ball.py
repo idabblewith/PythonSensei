@@ -1,5 +1,6 @@
 from days.day_022.files.helpers import *
 
+
 class Ball(Turtle):
     def __init__(self):
         super().__init__()
@@ -20,14 +21,13 @@ class Ball(Turtle):
         self.axis = axis
         if self.axis == "x":
             self.xmove *= -1
-            
+
         elif self.axis == "y":
             self.ymove *= -1
 
-        self.move_speed*=0.2
+        self.move_speed *= 0.2
 
     def reset_pos(self):
-        self.goto(0,0)
+        self.goto(0, 0)
         self.move_speed = 0.1
         self.bounce("x")
-    

@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 from misc import *
 from turtle import Turtle, Screen, right

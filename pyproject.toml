@@ -19,6 +19,7 @@ spotipy = "^2.24.0"
 selenium = "^4.21.0"
 undetected-chromedriver = "^3.5.5"
 scapy = "^2.5.0"
+python-dotenv = "^1.0.1"
 
 
 [build-system]

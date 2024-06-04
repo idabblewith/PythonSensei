@@ -1,5 +1,6 @@
 from days.day_034.files.helpers import html
 
+
 class QuizBrain:
 
     def __init__(self, q_list):
@@ -21,7 +22,7 @@ class QuizBrain:
         correct_answer = self.current_question.answer
         print(correct_answer)
         if user_answer == correct_answer:
-            self.score +=1
+            self.score += 1
             print(f"Your current score is: {self.score}/{self.question_number}")
             return True
         else:

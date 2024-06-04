@@ -1,6 +1,6 @@
-
 from misc import title, nls, nli, cls
-import random	
+import random
+
 
 def blackjack_logo():
     logo = """
@@ -10,7 +10,7 @@ def blackjack_logo():
 | \  /|K /\  |     | '_ \| |/ _` |/ __| |/ / |/ _` |/ __| |/ /
 |  \/ | /  \ |     | |_) | | (_| | (__|   <| | (_| | (__|   < 
 `-----| \  / |     |_.__/|_|\__,_|\___|_|\_\ |\__,_|\___|_|\_\\
-      |  \/ K|                            _/ |                
-      `------'                           |__/           
+	  |  \/ K|                            _/ |                
+	  `------'                           |__/           
 """
     nls(logo)

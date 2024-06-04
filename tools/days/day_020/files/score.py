@@ -1,6 +1,7 @@
-# Copyright (c) 2022 Jarid Prince
+# Copyright (c) 2024 Jarid Prince
 
 from days.day_020.files.helpers import *
+
 
 class Score(Turtle):
     def __init__(self):

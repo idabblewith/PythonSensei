@@ -1,7 +1,9 @@
 from days.day_016.files.helpers import *
 
+
 class CoffeeMaker:
     """Models the machine that makes the coffee"""
+
     def __init__(self):
         self.resources = {
             "water": 300,
