@@ -14,21 +14,15 @@ Last check - 04/06/24
 All functional to day 35.
 
 
-NOTES:
-To run the program launcher locally, you must have Python installed and type 'python start.py' from the root directory (where start.py is located).
-- Note that you need to install npcap locally to run Day 13/scapy (https://npcap.com)
-- Note that you need to set up your email account to allow third party apps for Day 31 (for google you must setup SMTP and app passwords for your account https://myaccount.google.com/u/2/apppasswords)
-- Note that you need to get Twilio and OpenWeather API keys from Day 32 onward.
 
-
-D36 - Secrets Day
+<!-- D36 - Secrets Day
 D37 - Secrets Day
 D38 - Secrets Day
 D39 - Secrets Day (files dm)
 D40 - Secrets Day
 NEED CHROME INSTALLED 
 D46 - Secrets Day
-D48 - Chrome Driver error
+D48 - Chrome Driver error -->
 
 
 
@@ -191,20 +185,23 @@ To name a few key components:
 
 ## Local Development Setup
 
-To locally run the programs in PythonSensei, you require a total of 36 credential files. For obvious security reasons, these files have been gitignored and will not be made publicly available.
+To locally run the programs in PythonSensei, you require a total of 36 credentials. For obvious security reasons, these files have been gitignored and will not be made publicly available.
 
-You must fill out a file with your own credentials for each program to work locally.
+You must fill out the .env.template file with your own credentials and remove the '.template' for each program to work locally.
 I am currently implementing a fix so that you can still run other programs that do not require credentials. You will be alerted if your credentials are missing.
-You must also install Ncap for Scapy.
 
-1. Generate and Fill Missing Files
+NOTES:
+To run the program launcher locally, you must have Python installed and type 'python start.py' from the root directory (where start.py is located).
+- Note that you need to install npcap locally to run Day 13/scapy (https://npcap.com)
+- Note that you need to set up your email account to allow third party apps for Day 31 (for google you must setup SMTP and app passwords for your account https://myaccount.google.com/u/2/apppasswords)
+- Note that you need to get Twilio and OpenWeather API keys from Day 32 onward.
 
-   A bit of a gargantuan task, but if you're suurrreee...
+1. Fill in and rename the .env.template file to .env
 
-   - Under the folder 'tools', there is a 'secret_creator.py' file which you should run to create the secret files.
-   - Once you have run that file, you must use the below table to create the required credentials and paste them in the newly created files.
+   - At the root directory, there is a .env.template file which you should open and fill in your API keys/emails/passwords.
+   - Once you have done that, you must rename the file to .env
 
-   Here is a table on the missing files:
+   <!-- Here is a table on the missing files:
 
    | FILE                         | TYPE         | DESCRIPTION                                                                                       | LINK FOR CREDENTIAL |
    | ---------------------------- | ------------ | ------------------------------------------------------------------------------------------------- | ------------------- |
@@ -243,30 +240,24 @@ You must also install Ncap for Scapy.
    | twitter_pass.secret          | PASSWORD     | Your Twitter Account Password                                                                     |
    | twitter_user.secret          | EMAIL        | Your Twitter Account Email                                                                        |
    | twitter_username.secret      | USERNAME     | Your Twitter Account Username                                                                     |
-   | zillow_form.secret           | LINK         | A Link to your Zillow Form containing a questionairre which a program fills with real-estate data |
+   | zillow_form.secret           | LINK         | A Link to your Zillow Form containing a questionairre which a program fills with real-estate data | -->
 
 2. Install Dependencies
 
-   - Navigate to the folder and create a virtual environment. `cd Python100 && mkvenv`
+   - If you don't have it installed already, install poetry: https://python-poetry.org
+   - In the base directory of the repo where the pyproject.toml and poetry.lock files are, run `poetry shell` to ensure you are in the virtual environment
+   - Run `poetry install` to install all required dependencies
 
-3. Launch the virtual environment
 
-   - `cd venv/Scripts && source activate && cd .. && cd ..`
+3. Enter the shell and run
 
-4. Install the required packages
+   - Run the `start.py` file by typing `python start.py` or `py start.py`
 
-   - While in the main directory: `pip install -r program_requirements.txt`
-   - NOTE: if you are running from VSCode, you may need to change your interpreter to the `venv/Scripts/python.exe` file. This can be done at the bottom left of your screen.
-
-5. Run
-
-   - Run the `start.py` file in vs code and click run OR `python start.py`
-   - NOTE: you must use the venv python (venv/Scripts/python.exe start.py). The command will look more like this: `c:/downloads/Python100/venv/Scripts/python.exe c:/downloads/Python100/start.py`
-
-6. Follow the prompts and select a program.
+4. Select program
 
    - If all is well, you will see a greeting and be prompted to select a program.
+   - Follow the prompts and select a program.
 
-Have fun!~s
+Have fun!~
 
 idabblewith
