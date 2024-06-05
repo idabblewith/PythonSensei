@@ -5,12 +5,10 @@ from days.day_038.files.helpers import *
 
 def day_038():
     title("NLP WORKOUT TRACKER")
-    with open("./tools/secrets/nutritionix_app.secret") as appf:
-        APP_ID = appf.read()
-    with open("./tools/secrets/nutritionix_api.secret") as api_file:
-        API_KEY = api_file.read()
-    with open("./tools/secrets/sheety_bearer.secret") as bearerf:
-        BEARER_TOKEN = bearerf.read()
+    load_dotenv()
+    NUTRITIONIX_APP_ID = os.getenv("NUTRITIONIX_APP_ID")
+    NUTRITIONIX_KEY = os.getenv("NUTRITIONIX_KEY")
+    SHEETY_BEARER_TOKEN = os.getenv("SHEETY_BEARER_TOKEN")
 
     exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
     sheet_endpoint = (
@@ -19,17 +17,17 @@ def day_038():
     # https://docs.google.com/spreadsheets/d/104GckXSrs7j34eY--r7GiK085zArnsjlyit8H9A2e1A/edit#gid=0
 
     headers = {
-        "x-app-id": APP_ID,
-        "x-app-key": API_KEY,
+        "x-app-id": NUTRITIONIX_APP_ID,
+        "x-app-key": NUTRITIONIX_KEY,
     }
     exercise = nli("What did you do?")
 
     params = {
         "query": exercise,
         "gender": "male",
-        "weight_kg": "68",
+        "weight_kg": "66",
         "height_cm": "166",
-        "age": 27,
+        "age": 31,
     }
 
     response = requests.post(url=exercise_endpoint, json=params, headers=headers)
@@ -49,7 +47,7 @@ def day_038():
             }
         }
 
-        bearer_headers = {"Authorization": f"Bearer {BEARER_TOKEN}"}
+        bearer_headers = {"Authorization": f"Bearer {SHEETY_BEARER_TOKEN}"}
         sheet_response = requests.post(
             sheet_endpoint, json=sheet_inputs, headers=bearer_headers
         )

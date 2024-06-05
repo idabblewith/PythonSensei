@@ -5,48 +5,40 @@ from days.day_036.files.helpers import *
 
 def day_036():
     title("STOCK NOTIFIER")
-    with open("./tools/secrets/newsapikey.secret") as newsapifile:
-        news_key = newsapifile.read()
-
-    with open("./tools/secrets/stock_api.secret") as stockfile:
-        stock_key = stockfile.read()
-
-    with open("./tools/secrets/twilio_id.secret") as asid:
-        acc_sid = asid.read()
-
-    with open("./tools/secrets/twilio_num.secret") as twinum:
-        twil_num = twinum.read()
-
-    with open("./tools/secrets/twilio_token.secret") as twi:
-        twi_token = twi.read()
-
-    with open("./tools/secrets/my_num.secret") as myn:
-        my_num = myn.read()
+    load_dotenv()
+    TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
+    TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
+    TWILIO_NUM = os.getenv("TWILIO_NUM")
+    MY_PERSONAL_NUMBER = os.getenv("MY_PERSONAL_NUMBER")
+    STOCK_KEY = os.getenv("STOCK_KEY")
+    NEWS_KEY = os.getenv("NEWS_KEY")
 
     STOCK = "TSLA"
     COMPANY_NAME = "Tesla"
     FUNCTION = "TIME_SERIES_DAILY"
+    # FUNCTION = "TIME_SERIES_INTRADAY"
     今日 = dt.utcnow().date()
     昨日 = 今日 - td(days=1)
     一昨日 = 今日 - td(days=2)
 
     stock_params = {
-        "apikey": stock_key,
-        "symbol": STOCK,
         "function": FUNCTION,
+        "symbol": STOCK,
         "outputsize": "compact",
+        "apikey": STOCK_KEY,
     }
     stock_response = requests.get(
         "https://www.alphavantage.co/query", params=stock_params
     )
     stock_response.raise_for_status()
     データ = stock_response.json()
+    print(データ)
     日データ = データ["Time Series (Daily)"]
     昨日のデータ = 日データ[str(昨日)]
     一昨日のデータ = 日データ[str(一昨日)]
 
     news_params = {
-        "apiKey": news_key,
+        "apiKey": NEWS_KEY,
         "q": COMPANY_NAME,
         "pageSize": 3,
         "country": "us",
@@ -78,25 +70,28 @@ def day_036():
         news = ""
         for num in articles:
             news += f'\nHeadline: {articles[num]["Headline"]}\nBrief: {articles[num]["Brief"]}\n'
-        return news
+        if news == "":
+            return "No news."
+        else:
+            return news
 
-    client = Client(acc_sid, twi_token)
+    client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
     if yesterdays_close > (day_before_yd_close * 1.05):
         message = client.messages.create(
             body=f"🔺 {STOCK} is UP by {round(percentage_change, 2)}%:\n {show_news()}",
-            from_=twil_num,
-            to=my_num,
+            from_=TWILIO_NUM,
+            to=MY_PERSONAL_NUMBER,
         )
     elif yesterdays_close < (day_before_yd_close * 0.95):
         message = client.messages.create(
             body=f"🔻 {STOCK} is DOWN by {round(percentage_change, 2)}%:\n {show_news()}",
-            from_=twil_num,
-            to=my_num,
+            from_=TWILIO_NUM,
+            to=MY_PERSONAL_NUMBER,
         )
     else:
         message = client.messages.create(
             body=f"{STOCK} is fairly stable @ {round(percentage_change, 2)}% change:\n {show_news()}",
-            from_=twil_num,
-            to=my_num,
+            from_=TWILIO_NUM,
+            to=MY_PERSONAL_NUMBER,
         )

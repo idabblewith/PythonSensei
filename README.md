@@ -10,19 +10,18 @@ PythonSensei is a program that runs 100 Python projects which were created over 
 
 Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. Please also note that the files are being checked and re-uploaded due to deprecated dependencies, and consequently, not all 100 programs are readily available.
 
-Last check - 04/06/24 
-All functional to day 35.
+Last check - 05/06/24 
+All functional to day 38.
 
 
 
-<!-- D36 - Secrets Day
-D37 - Secrets Day
-D38 - Secrets Day
+<!-- 
 D39 - Secrets Day (files dm)
 D40 - Secrets Day
 NEED CHROME INSTALLED 
 D46 - Secrets Day
-D48 - Chrome Driver error -->
+D48 - Chrome Driver error 
+-->
 
 
 
@@ -78,9 +77,10 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 33  | [ISS TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_033/main.py)               | INTERMEDIATE | SMTPLIB                                    |
 | Day 34  | [QUIZZLER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_034/main.py)                  | INTERMEDIATE | REQUESTS                                   |
 | Day 35  | [RAIN ALERT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_035/main.py)                | INTERMEDIATE | REQUESTS, TWILIO                           |
-<!-- | Day 36  | [STOCK NOTIFIER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_036/main.py)            | INTERMEDIATE | REQUESTS, TWILIO                           |
+| Day 36  | [STOCK NOTIFIER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_036/main.py)            | INTERMEDIATE | REQUESTS, TWILIO                           |
 | Day 37  | [PIXELA TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_037/main.py)            | INTERMEDIATE | REQUESTS                                   |
 | Day 38  | [NLP WORKOUT TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_038/main.py)       | INTERMEDIATE | REQUESTS                                   |
+<!-- 
 | Day 39  | [FLIGHT SCANNER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_039/main.py)            | INTERMEDIATE | REQUESTS, TWILIO                           |
 | Day 40  | [FLIGHT CLUB](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_040/main.py)               | INTERMEDIATE | REQUESTS, SMTPLIB, TWILIO                  |
 | Day 41  | [HTML CV](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_041/main.py)                   | INTERMEDIATE |                                            |
