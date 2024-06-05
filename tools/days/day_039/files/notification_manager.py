@@ -1,25 +1,21 @@
 from days.day_039.files.helpers import *
 
-with open('./tools/secrets/twilio_id.secret') as idf:
-    TWILIO_SID = idf.read()
-with open('./tools/secrets/twilio_token.secret') as tokf:
-    TWILIO_AUTH_TOKEN = tokf.read()
-with open('./tools/secrets/twilio_num.secret') as twin:
-    TWILIO_VIRTUAL_NUMBER = twin.read()
-with open('./tools/secrets/my_num.secret') as myn:
-    TWILIO_VERIFIED_NUMBER = myn.read()
-
 
 class NotificationManager:
 
     def __init__(self):
-        self.client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
+        load_dotenv()
+        self.TWILIO_ACCOUNT_SID = os.getenv("TWILIO_ACCOUNT_SID")
+        self.TWILIO_AUTH_TOKEN = os.getenv("TWILIO_AUTH_TOKEN")
+        self.TWILIO_NUM = os.getenv("TWILIO_NUM")
+        self.MY_PERSONAL_NUMBER = os.getenv("MY_PERSONAL_NUMBER")
+        self.client = Client(self.TWILIO_ACCOUNT_SID, self.TWILIO_AUTH_TOKEN)
 
     def send_sms(self, message):
         message = self.client.messages.create(
             body=message,
-            from_=TWILIO_VIRTUAL_NUMBER,
-            to=TWILIO_VERIFIED_NUMBER,
+            from_=self.TWILIO_NUM,
+            to=self.MY_PERSONAL_NUMBER,
         )
         # Prints if successfully sent.
         print(message.sid)

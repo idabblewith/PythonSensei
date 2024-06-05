@@ -12,6 +12,8 @@ def day_037():
     pixela_endpoint = "https://pixe.la/v1/users"
     headers = {"X-USER-TOKEN": PIXELA_AUTH_TOKEN}
 
+    nls("This day is API based. Uncomment code to run each section.")
+
     # Uncomment to create your account ===============
     # user_params = {
     #     "token": PIXELA_AUTH_TOKEN,

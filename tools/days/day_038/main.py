@@ -9,13 +9,10 @@ def day_038():
     NUTRITIONIX_APP_ID = os.getenv("NUTRITIONIX_APP_ID")
     NUTRITIONIX_KEY = os.getenv("NUTRITIONIX_KEY")
     SHEETY_BEARER_TOKEN = os.getenv("SHEETY_BEARER_TOKEN")
+    SHEETY_WORKOUT_ENDPOINT = os.getenv("SHEETY_WORKOUT_ENDPOINT")
 
     exercise_endpoint = "https://trackapi.nutritionix.com/v2/natural/exercise"
-    sheet_endpoint = (
-        "https://api.sheety.co/15ae3c416bf45dc7d700adaa6ce50555/myWorkouts/workouts"
-    )
-    # https://docs.google.com/spreadsheets/d/104GckXSrs7j34eY--r7GiK085zArnsjlyit8H9A2e1A/edit#gid=0
-
+    sheet_endpoint = SHEETY_WORKOUT_ENDPOINT
     headers = {
         "x-app-id": NUTRITIONIX_APP_ID,
         "x-app-key": NUTRITIONIX_KEY,
