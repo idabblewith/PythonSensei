@@ -1,9 +1,9 @@
-from days.day_040.files.helpers import requests, nls, nli
+from days.day_040.files.helpers import requests, nls, nli, os, load_dotenv
 
 # https://replit.com/@idabblewith/flightclub#main.py
 
-with open("./tools/secrets/sheety_flight_user.secret") as users:
-    SHEETY_ENDPOINT2 = users.read()
+load_dotenv()
+SHEETY_FLIGHT_ENDPOINT_2 = os.getenv("SHEETY_FLIGHT_ENDPOINT_2")
 
 nls("Welcome to the Flight Club.")
 nls("We curate the best flight deals!")
@@ -16,6 +16,6 @@ while True:
         break
 
 users = {"user": dict(firstName=first_name, lastName=last_name, email=email)}
-requests.post(url=SHEETY_ENDPOINT2, json=users)
+requests.post(url=SHEETY_FLIGHT_ENDPOINT_2, json=users)
 
 print("You're in the club!")

@@ -5,4 +5,5 @@ from datetime import datetime as dt, timedelta
 import smtplib
 from email.message import EmailMessage
 from pprint import pprint
-import json, sys
+import json, sys, os
+from dotenv import load_dotenv

@@ -1,18 +1,17 @@
 from days.day_040.files.helpers import *
 from days.day_040.files.flight_data import FlightData
 
-TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
-with open("./tools/secrets/tequila_api.secret") as teqf:
-    TEQUILA_API_KEY = teqf.read()
 
 class FlightSearch:
     def __init__(self):
+        load_dotenv()
         self.city_codes = []
+        self.TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
+        self.TEQUILA_API_KEY = os.getenv("TEQUILA_API_KEY")
 
     def get_destination_code(self, city_names):
-        location_endpoint = f"{TEQUILA_ENDPOINT}/locations/query"
-        headers = {"apikey": TEQUILA_API_KEY}
-
+        location_endpoint = f"{self.TEQUILA_ENDPOINT}/locations/query"
+        headers = {"apikey": self.TEQUILA_API_KEY}
 
         for city in city_names:
             query = {"term": city, "location_types": "city"}
@@ -21,15 +20,24 @@ class FlightSearch:
             # prepared = req.prepare()
             # nls(f'{bcolors.OKCYAN}PREPARED:\n{prepared}{bcolors.ENDC}')
 
-            response = requests.get(url=location_endpoint, headers=headers, params=query)
+            response = requests.get(
+                url=location_endpoint, headers=headers, params=query
+            )
             results = response.json()["locations"]
             code = results[0]["code"]
 
             self.city_codes.append(code)
         return code
 
-    def check_flights(self, origin_city_code, destination_city_code, from_time, to_time, max_stops=None):
-        headers = {"apikey": TEQUILA_API_KEY}
+    def check_flights(
+        self,
+        origin_city_code,
+        destination_city_code,
+        from_time,
+        to_time,
+        max_stops=None,
+    ):
+        headers = {"apikey": self.TEQUILA_API_KEY}
         oneway = True
         if oneway == True:
             query = {
@@ -42,7 +50,7 @@ class FlightSearch:
                 "max_stopovers": 0 if max_stops == None else max_stops,
                 "curr": "AUD",
             }
-        else:    
+        else:
             query = {
                 "fly_from": origin_city_code,
                 "fly_to": destination_city_code,
@@ -57,21 +65,21 @@ class FlightSearch:
             }
 
         response = requests.get(
-            url=f"{TEQUILA_ENDPOINT}/v2/search",
+            url=f"{self.TEQUILA_ENDPOINT}/v2/search",
             headers=headers,
             params=query,
         )
-        nls(f'{bcolors.OKCYAN}PREPARED:\n{response.json()}{bcolors.ENDC}')
+        nls(f"{bcolors.OKCYAN}PREPARED:\n{response.json()}{bcolors.ENDC}")
 
         # pprint(response.text)
-        
+
         try:
             data = response.json()["data"][0]
         except IndexError as e:
-            nls(f'{bcolors.OKBLUE}{e}{bcolors.ENDC}')
+            nls(f"{bcolors.OKBLUE}{e}{bcolors.ENDC}")
             return None
         except Exception as e:
-            nls(f'{bcolors.FAIL}{e}{bcolors.ENDC}')
+            nls(f"{bcolors.FAIL}{e}{bcolors.ENDC}")
             return None
         else:
             if oneway == True:
@@ -91,8 +99,8 @@ class FlightSearch:
                     destination_city=data["route"][0]["cityTo"],
                     destination_airport=data["route"][0]["flyTo"],
                     out_date=data["route"][0]["local_departure"].split("T")[0],
-                    return_date=data["route"][1]["local_departure"].split("T")[0]
+                    return_date=data["route"][1]["local_departure"].split("T")[0],
                 )
             # nls(f'{bcolors.WARNING}{data["price"]}{bcolors.ENDC}')
-            pprint(f'{data}')
+            pprint(f"{data}")
             return flight_data
