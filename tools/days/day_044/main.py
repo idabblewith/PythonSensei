@@ -20,11 +20,6 @@ def day_044():
             f"file://{this_directory}/tools/days/day_044/files/index.html"
         )
     except:
-        try:
-            webbrowser.get().open(
-                "file://d:/dev/Python100/tools/days/day_044/files/index.html"
-            )
-        except:
-            nls(
-                "There is likely a problem with the file locations. You need to adjust the url location for your files."
-            )
+        nls(
+            f"There is likely a problem with the file locations. You need to adjust the url location for your files.\nThe directory you have set is {this_directory}"
+        )

@@ -7,7 +7,6 @@ class FlightSearch:
         load_dotenv()
         self.TEQUILA_ENDPOINT = "https://tequila-api.kiwi.com"
         self.TEQUILA_API_KEY = os.getenv("TEQUILA_API_KEY")
-        pass
 
     def get_destination_code(self, city_name):
         # print("get destination codes triggered")

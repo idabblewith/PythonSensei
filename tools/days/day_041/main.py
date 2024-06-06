@@ -8,7 +8,7 @@ def day_041():
     chrome_path = "C:/Program Files/Google/Chrome/Application/chrome.exe %s"
     try:
         this_directory = input(
-            "Where is the Python100 Folder located?\ne.g. c:/Users/Bob/Downloads\nPress enter for default.\n"
+            "Where is the Python100 Folder located?\ne.g. c:/Users/Bob/Downloads\nPress enter for default location.\n"
         )
         if this_directory == "":
             this_directory = os.getcwd()
@@ -17,11 +17,6 @@ def day_041():
             f"file://{this_directory}/tools/days/day_041/files/index.html"
         )
     except:
-        try:
-            webbrowser.get().open(
-                "file://d:/dev/Python100/tools/days/day_041/files/index.html"
-            )
-        except:
-            nls(
-                "There is likely a problem with the file locations. You need to adjust the url location for your files."
-            )
+        nls(
+            f"There is likely a problem with the file locations. You need to adjust the url location for your files.\nThe directory you have set is {this_directory}"
+        )
