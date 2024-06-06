@@ -1,8 +1,6 @@
-## PythonSensei
+## PythonSensei - 100 Days of Python
 
 ![PythonSensei](https://github.com/idabblewith/PythonSensei/blob/main/tools/sensei.jpg?raw=true)
-
-### Welcome to 100 Days of Python.
 
 ## Introduction
 
@@ -11,7 +9,7 @@ PythonSensei is a program that runs 100 Python projects which were created over 
 Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. Please also note that the files are being checked and re-uploaded due to deprecated dependencies, and consequently, not all 100 programs are readily available.
 
 Last check - 06/06/24 
-All functional to day 40.
+All functional to day 45.
 
 
 
@@ -84,8 +82,8 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 42  | [HTML CV +](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_042main.py)                  | INTERMEDIATE |                                            |
 | Day 43  | [HTML/CSS CV](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_043/main.py)               | INTERMEDIATE |                                            |
 | Day 44  | [PERSONAL SITE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_044/main.py)             | INTERMEDIATE |                                            |
-<!-- 
 | Day 45  | [MUST WATCH LIST](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_045/main.py)           | INTERMEDIATE | BEAUTIFUL SOUP                             |
+<!-- 
 | Day 46  | [SPOTIFY TIME MACHINE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_046/main.py)      | ADVANCED     | SPOTIPY, BEAUTIFUL SOUP                    |
 | Day 47  | [AUTOMATED PRICE TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_047/main.py)   | ADVANCED     | BEAUTIFUL SOUP                             |
 | Day 48  | [SELENIUM GAME BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_048/main.py)         | ADVANCED     | SELENIUM                                   |

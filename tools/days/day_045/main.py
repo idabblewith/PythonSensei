@@ -18,7 +18,8 @@ def day_045():
     titles_html = soup.find_all(name="h3", class_="jsx-4245974604")
     titles = [eachtitle.getText() for eachtitle in titles_html]
     ordered_titles = titles[::-1]
-    nls(ordered_titles)
+    formatted_list = "\n".join(ordered_titles)
+    nls(formatted_list)
 
     with open("./tools/days/day_045/files/movies.txt", mode="w") as file:
         for movie in ordered_titles:
