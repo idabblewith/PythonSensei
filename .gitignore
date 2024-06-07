@@ -1,5 +1,7 @@
 installs.txt
 .env
+**/token.txt
+token.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

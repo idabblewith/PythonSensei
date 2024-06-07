@@ -12,7 +12,8 @@ from selenium.common.exceptions import (
     ElementClickInterceptedException,
     StaleElementReferenceException,
 )
-import time, sys
+import time, sys, os
+from dotenv import load_dotenv
 
 # import undetected_chromedriver as uc
 from selenium.webdriver.chrome.options import Options

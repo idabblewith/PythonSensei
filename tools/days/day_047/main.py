@@ -4,7 +4,8 @@ from days.day_047.files.helpers import *
 
 
 def day_047():
-    title("PRICE TRACKER")
+    title("AMAZON PRICE TRACKER")
+    nls("Tracking for Nintendo Ring Fit Adventure Game Price...")
     item_uri = "https://www.amazon.com.au/Nintendo-Ring-Fit-Adventure/dp/B07XW8BGFQ/ref=sr_1_1?dchild=1&keywords=ring+fit+adventure&qid=1619889211&sr=8-1"
 
     headers = {
@@ -30,15 +31,17 @@ def day_047():
     )
 
     if price < desired_price:
-        with open("./tools/secrets/email_password.secret") as pass_file:
-            password = pass_file.read()
+        load_dotenv()
+        GOOGLE_APP_PASSWORD = os.getenv("GOOGLE_APP_PASSWORD")
+        SENDER_EMAIL = os.getenv("SENDER_EMAIL")
+        RECEIVER_EMAIL = os.getenv("RECEIVER_EMAIL")
+
         with smtplib.SMTP("smtp.gmail.com", port=587) as conn:
-            my_email = "dmasamune.dokuganryuu@gmail.com"
             conn.starttls()
-            conn.login(user=my_email, password=password)
+            conn.login(user=SENDER_EMAIL, password=GOOGLE_APP_PASSWORD)
             conn.sendmail(
-                from_addr=my_email,
-                to_addrs="kaishunmasaji@outlook.com",
+                from_addr=SENDER_EMAIL,
+                to_addrs=RECEIVER_EMAIL,
                 msg=f"Subject: It's a reasonable price!!\n\n{item}: ${price}\n{item_uri}",
             )
         nls("Email sent!")
