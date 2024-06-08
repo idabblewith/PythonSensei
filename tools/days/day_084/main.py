@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_084.files import *
+from days.day_084.files.helpers import *
 
-def day84():
+def day_084():
 	title("IMAGE WATERMARKING")

@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_074.files import *
+from days.day_074.files.helpers import *
 
-def day74():
+def day_074():
 	title("GTRENDS AND MATPLOTLIB")

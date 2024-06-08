@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_066.files import *
+from days.day_066.files.helpers import *
 
-def day66():
+def day_066():
 	title("REST API")

@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_060.files import *
+from days.day_060.files.helpers import *
 
-def day60():
+def day_060():
 	title("FLASK: FORMS AND REQUESTS")

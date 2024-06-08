@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_086.files import *
+from days.day_086.files.helpers import *
 
-def day86():
+def day_086():
 	title("BREAKOUT")

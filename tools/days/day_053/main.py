@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_053.files import *
+from days.day_053.files.helpers import *
 
-def day53():
+def day_053():
 	title("AUTOMATED REAL ESTATE")

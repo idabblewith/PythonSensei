@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_057.files import *
+from days.day_057.files.helpers import *
 
-def day57():
+def day_057():
 	title("FLASK: BASIC BLOG")

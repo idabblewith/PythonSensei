@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_091.files import *
+from days.day_091.files.helpers import *
 
-def day91():
+def day_091():
 	title("COLOR-PAL GEN")

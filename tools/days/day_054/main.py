@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_054.files import *
+from days.day_054.files.helpers import *
 
-def day54():
+def day_054():
 	title("FUNC SPEED DECORATOR")

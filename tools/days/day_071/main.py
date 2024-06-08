@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_071.files import *
+from days.day_071.files.helpers import *
 
-def day71():
+def day_071():
 	title("PANDAS DATA EXPLORATION")

@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_062.files import *
+from days.day_062.files.helpers import *
 
-def day62():
+def day_062():
 	title("FLASK: COFFEE AND WIFI")

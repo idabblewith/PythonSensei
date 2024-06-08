@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_073.files import *
+from days.day_073.files.helpers import *
 
-def day73():
+def day_073():
 	title("LEGO PANDAS")

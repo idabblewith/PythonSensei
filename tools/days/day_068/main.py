@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_068.files import *
+from days.day_068.files.helpers import *
 
-def day68():
+def day_068():
 	title("BLOG: AUTHENTICATION")

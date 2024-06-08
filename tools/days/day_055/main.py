@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_055.files import *
+from days.day_055.files.helpers import *
 
-def day55():
+def day_055():
 	title("FLASK: GUESSING GAME")

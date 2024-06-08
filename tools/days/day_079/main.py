@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_079.files import *
+from days.day_079.files.helpers import *
 
-def day79():
+def day_079():
 	title("KERNEL DENSITY EST.")

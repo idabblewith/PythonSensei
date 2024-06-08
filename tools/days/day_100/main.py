@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_100.files import *
+from days.day_100.files.helpers import *
 
-def day100():
+def day_100():
 	title("PREDICT SALARIES")

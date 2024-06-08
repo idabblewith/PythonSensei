@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_096.files import *
+from days.day_096.files.helpers import *
 
-def day96():
+def day_096():
 	title("ONLINE SHOP")

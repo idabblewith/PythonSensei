@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_094.files import *
+from days.day_094.files.helpers import *
 
-def day94():
+def day_094():
 	title("SPACE INVADERS")

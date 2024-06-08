@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_075.files import *
+from days.day_075.files.helpers import *
 
-def day75():
+def day_075():
 	title("PLOTTING APP STORE")

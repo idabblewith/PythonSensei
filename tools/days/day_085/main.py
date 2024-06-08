@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_085.files import *
+from days.day_085.files.helpers import *
 
-def day85():
+def day_085():
 	title("TYPING SPEED")

@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_065.files import *
+from days.day_065.files.helpers import *
 
-def day65():
+def day_065():
 	title("FILLER WD FILLER")

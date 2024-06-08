@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_097.files import *
+from days.day_097.files.helpers import *
 
-def day97():
+def day_097():
 	title("LIFE AUTOMATION")

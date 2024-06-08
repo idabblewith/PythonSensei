@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_061.files import *
+from days.day_061.files.helpers import *
 
-def day61():
+def day_061():
 	title("FLASK: ADVANCED FORMS")

@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_058.files import *
+from days.day_058.files.helpers import *
 
-def day58():
+def day_058():
 	title("FLASK: TINDOG")

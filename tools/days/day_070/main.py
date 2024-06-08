@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_070.files import *
+from days.day_070.files.helpers import *
 
-def day70():
+def day_070():
 	title("BLOG: DEPLOYMENT")

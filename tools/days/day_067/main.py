@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_067.files import *
+from days.day_067.files.helpers import *
 
-def day67():
+def day_067():
 	title("BLOG: REST API/CKEDITOR")

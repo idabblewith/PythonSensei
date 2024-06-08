@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_052.files import *
+from days.day_052.files.helpers import *
 
-def day52():
+def day_052():
 	title("INSTAGRAM BOT")

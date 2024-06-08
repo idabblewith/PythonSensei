@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_069.files import *
+from days.day_069.files.helpers import *
 
-def day69():
+def day_069():
 	title("BLOG: ADDING USERS")

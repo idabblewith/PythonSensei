@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_098.files import *
+from days.day_098.files.helpers import *
 
-def day98():
+def day_098():
 	title("SPACE RACE DATA")

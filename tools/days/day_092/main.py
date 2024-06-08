@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_092.files import *
+from days.day_092.files.helpers import *
 
-def day92():
+def day_092():
 	title("CUSTOM WEB SCRAPER")

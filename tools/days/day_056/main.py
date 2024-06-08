@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_056.files import *
+from days.day_056.files.helpers import *
 
-def day56():
+def day_056():
 	title("FLASK: NAMECARD")

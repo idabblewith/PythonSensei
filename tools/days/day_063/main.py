@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_063.files import *
+from days.day_063.files.helpers import *
 
-def day63():
+def day_063():
 	title("VIRTUAL BOOKSHELF")

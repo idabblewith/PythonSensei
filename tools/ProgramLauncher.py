@@ -51,31 +51,32 @@ from days.day_048.main import day_048
 from days.day_049.main import day_049
 from days.day_050.main import day_050
 
-# from days.day_051.main import day_051
-# from days.day_052.main import day_052
-# from days.day_053.main import day_053
-# from days.day_054.main import day_054
-# from days.day_055.main import day_055
-# from days.day_056.main import day_056
-# from days.day_057.main import day_057
-# from days.day_058.main import day_058
-# from days.day_059.main import day_059
-# from days.day_060.main import day_060
-# from days.day_061.main import day_061
-# from days.day_062.main import day_062
-# from days.day_063.main import day_063
-# from days.day_064.main import day_064
-# from days.day_065.main import day_065
-# from days.day_066.main import day_066
-# from days.day_067.main import day_067
-# from days.day_068.main import day_068
-# from days.day_069.main import day_069
-# from days.day_070.main import day_070
-# from days.day_071.main import day_071
-# from days.day_072.main import day_072
-# from days.day_073.main import day_073
-# from days.day_074.main import day_074
-# from days.day_075.main import day_075
+from days.day_051.main import day_051
+from days.day_052.main import day_052
+from days.day_053.main import day_053
+from days.day_054.main import day_054
+from days.day_055.main import day_055
+from days.day_056.main import day_056
+from days.day_057.main import day_057
+from days.day_058.main import day_058
+from days.day_059.main import day_059
+from days.day_060.main import day_060
+from days.day_061.main import day_061
+from days.day_062.main import day_062
+from days.day_063.main import day_063
+from days.day_064.main import day_064
+from days.day_065.main import day_065
+from days.day_066.main import day_066
+from days.day_067.main import day_067
+from days.day_068.main import day_068
+from days.day_069.main import day_069
+from days.day_070.main import day_070
+from days.day_071.main import day_071
+from days.day_072.main import day_072
+from days.day_073.main import day_073
+from days.day_074.main import day_074
+from days.day_075.main import day_075
+
 # from days.day_076.main import day_076
 # from days.day_077.main import day_077
 # from days.day_078.main import day_078
@@ -158,8 +159,33 @@ class ProgramLauncher:
             day_048,
             day_049,
             day_050,
+            day_051,
+            day_052,
+            day_053,
+            day_054,
+            day_055,
+            day_056,
+            day_057,
+            day_058,
+            day_059,
+            day_060,
+            day_061,
+            day_062,
+            day_063,
+            day_064,
+            day_065,
+            day_066,
+            day_067,
+            day_068,
+            day_069,
+            day_070,
+            day_071,
+            day_072,
+            day_073,
+            day_074,
+            day_075,
         ]
-        #   , day_051, day_052, day_053, day_054, day_055, day_056, day_057, day_058, day_059, day_060, day_061, day_062, day_063, day_064, day_065, day_066, day_067, day_068, day_069, day_070, day_071, day_072, day_073, day_074, day_075, day_076, day_077, day_078, day_079, day_080, day_081, day_082, day_083, day_084, day_085, day_086, day_087, day_088, day_089, day_090, day_091, day_092, day_093, day_094, day_095, day_096, day_097, day_098, day_099, day_100
+        #   ,  day_076, day_077, day_078, day_079, day_080, day_081, day_082, day_083, day_084, day_085, day_086, day_087, day_088, day_089, day_090, day_091, day_092, day_093, day_094, day_095, day_096, day_097, day_098, day_099, day_100
         self.program_id = None
         self.selected = None
 
@@ -208,7 +234,7 @@ class ProgramLauncher:
             raw = re.sub(r".py\",", " @", raw)
 
             print(
-                f"{self.misc.bcolors.FAIL}FROM DIRECTORY:\t\t {dir_path}\{fname}@{exc_tb.tb_lineno}{self.misc.bcolors.ENDC}\n"
+                f"{self.misc.bcolors.FAIL}FROM DIRECTORY:\t\t {dir_path}/{fname}@{exc_tb.tb_lineno}{self.misc.bcolors.ENDC}\n"
             )
             print(f"{self.misc.bcolors.FAIL}INFO:\n{raw}{self.misc.bcolors.ENDC}\n")
             print(

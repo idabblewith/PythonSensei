@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_078.files import *
+from days.day_078.files.helpers import *
 
-def day78():
+def day_078():
 	title("NOBEL PRIZE")

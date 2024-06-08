@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_072.files import *
+from days.day_072.files.helpers import *
 
-def day72():
+def day_072():
 	title("MATPLOTLIB")

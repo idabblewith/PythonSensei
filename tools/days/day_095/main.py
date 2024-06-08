@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_095.files import *
+from days.day_095.files.helpers import *
 
-def day95():
+def day_095():
 	title("CUSTOM API SITE")

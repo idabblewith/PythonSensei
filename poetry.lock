@@ -1153,6 +1153,20 @@ memcache = ["pymemcache (>=3.5.2)"]
 test = ["mock (==2.0.0)"]
 
 [[package]]
+name = "tabulate"
+version = "0.9.0"
+description = "Pretty-print tabular data"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "tabulate-0.9.0-py3-none-any.whl", hash = "sha256:024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"},
+    {file = "tabulate-0.9.0.tar.gz", hash = "sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c"},
+]
+
+[package.extras]
+widechars = ["wcwidth"]
+
+[[package]]
 name = "trio"
 version = "0.25.1"
 description = "A friendly Python library for async concurrency and I/O"
@@ -1461,4 +1475,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "2c5c68771b1259bee192f352d31e6c1c84d512e67e5ec0bf08f3bb861352a9bd"
+content-hash = "39ad703188aa92aada6398fc9acd184ff6663f4ce07035a9028a1d225824f573"

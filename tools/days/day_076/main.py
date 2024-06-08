@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_076.files import *
+from days.day_076.files.helpers import *
 
-def day76():
+def day_076():
 	title("NUMPY")

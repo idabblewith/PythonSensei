@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_088.files import *
+from days.day_088.files.helpers import *
 
-def day88():
+def day_088():
 	title("TODO LIST")

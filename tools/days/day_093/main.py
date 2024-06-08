@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_093.files import *
+from days.day_093.files.helpers import *
 
-def day93():
+def day_093():
 	title("GOOGLE DINOSAUR")

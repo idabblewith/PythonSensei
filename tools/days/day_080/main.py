@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_080.files import *
+from days.day_080.files.helpers import *
 
-def day80():
+def day_080():
 	title("PROPERTY VALUATION")

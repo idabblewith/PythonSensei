@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_083.files import *
+from days.day_083.files.helpers import *
 
-def day83():
+def day_083():
 	title("TIC TAC TOE")

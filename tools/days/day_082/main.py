@@ -1,5 +1,4 @@
-from tools.misc import *
-from days.day_082.files import *
+from days.day_082.files.helpers import *
 
-def day82():
+def day_082():
 	title("PORTFOLIO WEBSITE")
