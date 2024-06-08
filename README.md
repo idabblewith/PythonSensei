@@ -8,9 +8,6 @@ PythonSensei is a program that runs 100 Python projects which were created over 
 
 Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. Please also note that the files are being checked and re-uploaded due to deprecated dependencies, and consequently, not all 100 programs are readily available.
 
-Last check - 08/06/24 
-All functional to day 50.
-
 Here is a demo of how the program works:
 
 _STARTING PYTHONSENSEI_
@@ -23,6 +20,9 @@ _RUNNING PROGRAM_
 ![Screenshot 3](https://github.com/idabblewith/PythonSensei/blob/main/tools/ss3.png?raw=true)
 
 ## List of Projects
+
+Last check - 09/06/24 
+All functional to day 52.
 
 Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
 
@@ -78,10 +78,10 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 48  | [SELENIUM GAME BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_048/main.py)         | ADVANCED     | SELENIUM                                   |
 | Day 49  | [AUTOMATED JOB APPLICATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_049/main.py) | ADVANCED     | SELENIUM                                   |
 | Day 50  | [TINDER SWIPING BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_050/main.py)        | ADVANCED     | SELENIUM                                   |
-
-<!-- 
 | Day 51  | [TWITTER COMPLAINT BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_051/main.py)     | ADVANCED     | SELENIUM                                   |
 | Day 52  | [INSTAGRAM BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_052/main.py)             | ADVANCED     | SELENIUM                                   |
+
+<!-- 
 | Day 53  | [AUTOMATED REAL ESTATE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_053/main.py)     | ADVANCED     | SELENIUM, BEAUTIFUL SOUP                   |
 | Day 54  | [FUNC SPEED DECORATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_054/main.py)      | ADVANCED     |                                            |
 | Day 55  | [FLASK: GUESSING GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_055/main.py)      | ADVANCED     | FLASK, TORNADO                             |
