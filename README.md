@@ -21,68 +21,68 @@ _RUNNING PROGRAM_
 
 ## List of Projects
 
-Last check - 09/06/24 
-All functional to day 52.
+Last check - 10/06/24
+All functional to day 53.
 
 Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
 
-| DAY     | PROJECT                                                                                                       | SKILL LEVEL  | NOTABLE TECH                               |
-| ------- | ------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------ |
-| Day 1   | [BAND NAME GENERATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_001/main.py)       | BEGINNER     |                                            |
-| Day 2   | [BILL SPLITTER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_002/main.py)             | BEGINNER     |                                            |
-| Day 3   | [TREASURE HUNT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_003/main.py)             | BEGINNER     |                                            |
-| Day 4   | [ROCK PAPER SCISSORS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_004/main.py)       | BEGINNER     |                                            |
-| Day 5   | [PASSWORD GENERATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_005/main.py)        | BEGINNER     |                                            |
-| Day 6   | [BMI CHECKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_006/main.py)               | BEGINNER     |                                            |
-| Day 7   | [HANGMAN](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_007/main.py)                   | BEGINNER     |                                            |
-| Day 8   | [CAESAR'S CIPHER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_008/main.py)           | BEGINNER     |                                            |
-| Day 9   | [SILENT BID](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_009/main.py)                | BEGINNER     |                                            |
-| Day 10  | [BASIC CALCULATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_010/main.py)          | BEGINNER     |                                            |
-| Day 11  | [BLACKJACK CAPSTONE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_011/main.py)        | BEGINNER     |                                            |
-| Day 12  | [NUMBER GUESSING GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_012/main.py)      | BEGINNER     |                                            |
-| Day 13  | [MULTIPROCESS PORT SCANNER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_013/main.py) | BEGINNER     | SCAPY, SUBPROCESS                          |
-| Day 14  | [HIGHER LOWER GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_014/main.py)         | BEGINNER     |                                            |
-| Day 15  | [COFFEE MACHINE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_015/main.py)            | BEGINNER     |                                            |
-| Day 16  | [OOP COFFEE MACHINE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_016/main.py)        | BEGINNER     |                                            |
-| Day 17  | [QUIZ](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_017/main.py)                      | BEGINNER     | REQUESTS                                   |
-| Day 18  | [TURTLE ART](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_018/main.py)                | BEGINNER     | TKINTER, TURTLE                            |
-| Day 19  | [TURTLE RACE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_019/main.py)               | BEGINNER     | TKINTER, TURTLE                            |
-| Day 20  | [SNAKE GAME P1](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_020/main.py)             | BEGINNER     | TKINTER, TURTLE                            |
-| Day 21  | [SNAKE GAME P2](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_021/main.py)             | BEGINNER     | TKINTER, TURTLE                            |
-| Day 22  | [PONG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_022/main.py)                      | BEGINNER     | TKINTER, TURTLE                            |
-| Day 23  | [TURTLE CROSSING CAPSTONE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_023/main.py)  | BEGINNER     | TKINTER, TURTLE                            |
-| Day 24  | [MAIL MERGER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_024/main.py)               | BEGINNER     |                                            |
-| Day 25  | [US STATES GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_025/main.py)            | INTERMEDIATE | PANDAS                                     |
-| Day 26  | [NATO ALPHABET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_026/main.py)             | INTERMEDIATE | PANDAS                                     |
-| Day 27  | [MILES TO KM](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_027/main.py)               | INTERMEDIATE | TKINTER                                    |
-| Day 28  | [POMODORO](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_028/main.py)                  | INTERMEDIATE | TKINTER                                    |
-| Day 29  | [PASS MANAGER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_029/main.py)              | INTERMEDIATE | TKINTER                                    |
-| Day 30  | [PASS MANAGER PRO](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_030/main.py)          | INTERMEDIATE | TKINTER                                    |
-| Day 31  | [FLASH CARDS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_031/main.py)               | INTERMEDIATE | TKINTER                                    |
-| Day 32  | [BIRTHDAY WISHER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_032/main.py)           | INTERMEDIATE | TKINTER, PANDAS                            |
-| Day 33  | [ISS TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_033/main.py)               | INTERMEDIATE | SMTPLIB                                    |
-| Day 34  | [QUIZZLER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_034/main.py)                  | INTERMEDIATE | REQUESTS                                   |
-| Day 35  | [RAIN ALERT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_035/main.py)                | INTERMEDIATE | REQUESTS, TWILIO                           |
-| Day 36  | [STOCK NOTIFIER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_036/main.py)            | INTERMEDIATE | REQUESTS, TWILIO                           |
-| Day 37  | [PIXELA TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_037/main.py)            | INTERMEDIATE | REQUESTS                                   |
-| Day 38  | [NLP WORKOUT TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_038/main.py)       | INTERMEDIATE | REQUESTS                                   |
-| Day 39  | [FLIGHT SCANNER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_039/main.py)            | INTERMEDIATE | REQUESTS, TWILIO                           |
-| Day 40  | [FLIGHT CLUB](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_040/main.py)               | INTERMEDIATE | REQUESTS, SMTPLIB, TWILIO                  |
-| Day 41  | [HTML CV](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_041/main.py)                   | INTERMEDIATE |                                            |
-| Day 42  | [HTML CV +](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_042main.py)                  | INTERMEDIATE |                                            |
-| Day 43  | [HTML/CSS CV](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_043/main.py)               | INTERMEDIATE |                                            |
-| Day 44  | [PERSONAL SITE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_044/main.py)             | INTERMEDIATE |                                            |
-| Day 45  | [MUST WATCH LIST](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_045/main.py)           | INTERMEDIATE | BEAUTIFUL SOUP                             |
-| Day 46  | [SPOTIFY TIME MACHINE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_046/main.py)      | ADVANCED     | SPOTIPY, BEAUTIFUL SOUP                    |
-| Day 47  | [AUTOMATED AMAZON PRICE TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_047/main.py)   | ADVANCED     | BEAUTIFUL SOUP                             |
-| Day 48  | [SELENIUM GAME BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_048/main.py)         | ADVANCED     | SELENIUM                                   |
-| Day 49  | [AUTOMATED JOB APPLICATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_049/main.py) | ADVANCED     | SELENIUM                                   |
-| Day 50  | [TINDER SWIPING BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_050/main.py)        | ADVANCED     | SELENIUM                                   |
-| Day 51  | [TWITTER COMPLAINT BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_051/main.py)     | ADVANCED     | SELENIUM                                   |
-| Day 52  | [INSTAGRAM BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_052/main.py)             | ADVANCED     | SELENIUM                                   |
+| DAY    | PROJECT                                                                                                            | SKILL LEVEL  | NOTABLE TECH              |
+| ------ | ------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------- |
+| Day 1  | [BAND NAME GENERATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_001/main.py)            | BEGINNER     |                           |
+| Day 2  | [BILL SPLITTER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_002/main.py)                  | BEGINNER     |                           |
+| Day 3  | [TREASURE HUNT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_003/main.py)                  | BEGINNER     |                           |
+| Day 4  | [ROCK PAPER SCISSORS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_004/main.py)            | BEGINNER     |                           |
+| Day 5  | [PASSWORD GENERATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_005/main.py)             | BEGINNER     |                           |
+| Day 6  | [BMI CHECKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_006/main.py)                    | BEGINNER     |                           |
+| Day 7  | [HANGMAN](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_007/main.py)                        | BEGINNER     |                           |
+| Day 8  | [CAESAR'S CIPHER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_008/main.py)                | BEGINNER     |                           |
+| Day 9  | [SILENT BID](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_009/main.py)                     | BEGINNER     |                           |
+| Day 10 | [BASIC CALCULATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_010/main.py)               | BEGINNER     |                           |
+| Day 11 | [BLACKJACK CAPSTONE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_011/main.py)             | BEGINNER     |                           |
+| Day 12 | [NUMBER GUESSING GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_012/main.py)           | BEGINNER     |                           |
+| Day 13 | [MULTIPROCESS PORT SCANNER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_013/main.py)      | BEGINNER     | SCAPY, SUBPROCESS         |
+| Day 14 | [HIGHER LOWER GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_014/main.py)              | BEGINNER     |                           |
+| Day 15 | [COFFEE MACHINE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_015/main.py)                 | BEGINNER     |                           |
+| Day 16 | [OOP COFFEE MACHINE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_016/main.py)             | BEGINNER     |                           |
+| Day 17 | [QUIZ](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_017/main.py)                           | BEGINNER     | REQUESTS                  |
+| Day 18 | [TURTLE ART](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_018/main.py)                     | BEGINNER     | TKINTER, TURTLE           |
+| Day 19 | [TURTLE RACE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_019/main.py)                    | BEGINNER     | TKINTER, TURTLE           |
+| Day 20 | [SNAKE GAME P1](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_020/main.py)                  | BEGINNER     | TKINTER, TURTLE           |
+| Day 21 | [SNAKE GAME P2](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_021/main.py)                  | BEGINNER     | TKINTER, TURTLE           |
+| Day 22 | [PONG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_022/main.py)                           | BEGINNER     | TKINTER, TURTLE           |
+| Day 23 | [TURTLE CROSSING CAPSTONE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_023/main.py)       | BEGINNER     | TKINTER, TURTLE           |
+| Day 24 | [MAIL MERGER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_024/main.py)                    | BEGINNER     |                           |
+| Day 25 | [US STATES GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_025/main.py)                 | INTERMEDIATE | PANDAS                    |
+| Day 26 | [NATO ALPHABET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_026/main.py)                  | INTERMEDIATE | PANDAS                    |
+| Day 27 | [MILES TO KM](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_027/main.py)                    | INTERMEDIATE | TKINTER                   |
+| Day 28 | [POMODORO](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_028/main.py)                       | INTERMEDIATE | TKINTER                   |
+| Day 29 | [PASS MANAGER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_029/main.py)                   | INTERMEDIATE | TKINTER                   |
+| Day 30 | [PASS MANAGER PRO](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_030/main.py)               | INTERMEDIATE | TKINTER                   |
+| Day 31 | [FLASH CARDS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_031/main.py)                    | INTERMEDIATE | TKINTER                   |
+| Day 32 | [BIRTHDAY WISHER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_032/main.py)                | INTERMEDIATE | TKINTER, PANDAS           |
+| Day 33 | [ISS TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_033/main.py)                    | INTERMEDIATE | SMTPLIB                   |
+| Day 34 | [QUIZZLER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_034/main.py)                       | INTERMEDIATE | REQUESTS                  |
+| Day 35 | [RAIN ALERT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_035/main.py)                     | INTERMEDIATE | REQUESTS, TWILIO          |
+| Day 36 | [STOCK NOTIFIER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_036/main.py)                 | INTERMEDIATE | REQUESTS, TWILIO          |
+| Day 37 | [PIXELA TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_037/main.py)                 | INTERMEDIATE | REQUESTS                  |
+| Day 38 | [NLP WORKOUT TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_038/main.py)            | INTERMEDIATE | REQUESTS                  |
+| Day 39 | [FLIGHT SCANNER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_039/main.py)                 | INTERMEDIATE | REQUESTS, TWILIO          |
+| Day 40 | [FLIGHT CLUB](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_040/main.py)                    | INTERMEDIATE | REQUESTS, SMTPLIB, TWILIO |
+| Day 41 | [HTML CV](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_041/main.py)                        | INTERMEDIATE |                           |
+| Day 42 | [HTML CV +](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_042main.py)                       | INTERMEDIATE |                           |
+| Day 43 | [HTML/CSS CV](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_043/main.py)                    | INTERMEDIATE |                           |
+| Day 44 | [PERSONAL SITE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_044/main.py)                  | INTERMEDIATE |                           |
+| Day 45 | [MUST WATCH LIST](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_045/main.py)                | INTERMEDIATE | BEAUTIFUL SOUP            |
+| Day 46 | [SPOTIFY TIME MACHINE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_046/main.py)           | ADVANCED     | SPOTIPY, BEAUTIFUL SOUP   |
+| Day 47 | [AUTOMATED AMAZON PRICE TRACKER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_047/main.py) | ADVANCED     | BEAUTIFUL SOUP            |
+| Day 48 | [SELENIUM GAME BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_048/main.py)              | ADVANCED     | SELENIUM                  |
+| Day 49 | [AUTOMATED JOB APPLICATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_049/main.py)      | ADVANCED     | SELENIUM                  |
+| Day 50 | [TINDER SWIPING BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_050/main.py)             | ADVANCED     | SELENIUM                  |
+| Day 51 | [TWITTER COMPLAINT BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_051/main.py)          | ADVANCED     | SELENIUM                  |
+| Day 52 | [INSTAGRAM BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_052/main.py)                  | ADVANCED     | SELENIUM                  |
+| Day 53 | [THREADED AUTOMATED REAL ESTATE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_053/main.py) | ADVANCED     | SELENIUM, BEAUTIFUL SOUP  |
 
-<!-- 
-| Day 53  | [AUTOMATED REAL ESTATE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_053/main.py)     | ADVANCED     | SELENIUM, BEAUTIFUL SOUP                   |
+<!--
 | Day 54  | [FUNC SPEED DECORATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_054/main.py)      | ADVANCED     |                                            |
 | Day 55  | [FLASK: GUESSING GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_055/main.py)      | ADVANCED     | FLASK, TORNADO                             |
 | Day 56  | [FLASK: NAMECARD](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_056/main.py)           | ADVANCED     | FLASK, TORNADO                             |
@@ -179,6 +179,7 @@ I am currently implementing a fix so that you can still run other programs that 
 
 NOTES:
 To run the program launcher locally, you must have Python installed and type 'python start.py' from the root directory (where start.py is located).
+
 - Note that you need to install npcap locally to run Day 13/scapy (https://npcap.com)
 - Note that you need to set up your email account to allow third party apps for Day 31 (for google you must setup SMTP and app passwords for your account https://myaccount.google.com/u/2/apppasswords)
 - Note that you need to get Twilio and OpenWeather API keys from Day 32 onward.
@@ -234,7 +235,6 @@ To run the program launcher locally, you must have Python installed and type 'py
    - If you don't have it installed already, install poetry: https://python-poetry.org
    - In the base directory of the repo where the pyproject.toml and poetry.lock files are, run `poetry shell` to ensure you are in the virtual environment
    - Run `poetry install` to install all required dependencies
-
 
 3. Enter the shell and run
 
