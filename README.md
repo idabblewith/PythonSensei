@@ -6,7 +6,9 @@
 
 PythonSensei is a program that runs 100 Python projects which were created over the course of 100 Days.<br>The 100 programs that PythonSensei can run are primarily based on [Angela Yu's 100 Days of Code Udemy Course](https://www.udemy.com/course/100-days-of-code), range from beginner to professional, and are optomised to be run via selection on a command line interface.
 
-Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. Please also note that the files are being checked and re-uploaded due to deprecated dependencies, and consequently, not all 100 programs are readily available.
+Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. However, due to deprecations most days are being redone.
+
+All functional to day 55 @ 10/06/24
 
 Here is a demo of how the program works:
 
@@ -20,9 +22,6 @@ _RUNNING PROGRAM_
 ![Screenshot 3](https://github.com/idabblewith/PythonSensei/blob/main/tools/ss3.png?raw=true)
 
 ## List of Projects
-
-Last check - 10/06/24
-All functional to day 53.
 
 Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
 
@@ -81,19 +80,19 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 51 | [TWITTER COMPLAINT BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_051/main.py)          | ADVANCED     | SELENIUM                  |
 | Day 52 | [INSTAGRAM BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_052/main.py)                  | ADVANCED     | SELENIUM                  |
 | Day 53 | [THREADED AUTOMATED REAL ESTATE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_053/main.py) | ADVANCED     | SELENIUM, BEAUTIFUL SOUP  |
+| Day 54 | [FUNC SPEED DECORATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_054/main.py)           | ADVANCED     |                           |
+| Day 55 | [FLASK: GUESSING GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_055/main.py)           | ADVANCED     | FLASK                     |
+| Day 56 | [FLASK: NAMECARD](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_056/main.py)                | ADVANCED     | FLASK                     |
 
 <!--
-| Day 54  | [FUNC SPEED DECORATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_054/main.py)      | ADVANCED     |                                            |
-| Day 55  | [FLASK: GUESSING GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_055/main.py)      | ADVANCED     | FLASK, TORNADO                             |
-| Day 56  | [FLASK: NAMECARD](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_056/main.py)           | ADVANCED     | FLASK, TORNADO                             |
-| Day 57  | [FLASK: BASIC BLOG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_057/main.py)         | ADVANCED     | FLASK, TORNADO                             |
-| Day 58  | [FLASK: TINDOG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_058/main.py)             | ADVANCED     | FLASK, TORNADO                             |
-| Day 59  | [FLASK: BASIC BLOG 2](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_059/main.py)       | ADVANCED     | FLASK, TORNADO                             |
-| Day 60  | [FLASK: FORMS AND REQUESTS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_060/main.py) | ADVANCED     | FLASK, TORNADO                             |
-| Day 61  | [FLASK: ADVANCED FORMS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_061/main.py)     | ADVANCED     | FLASK, TORNADO, WTFORMS                    |
-| Day 62  | [FLASK: COFFEE AND WIFI](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_062/main.py)    | ADVANCED     | FLASK, TORNADO, WTFORMS                    |
-| Day 63  | [VIRTUAL BOOKSHELF](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_063/main.py)         | ADVANCED     | FLASK, TORNADO, WTFORMS                    |
-| Day 64  | [TOP 10 MOVIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_064/main.py)             | ADVANCED     | FLASK, TORNADO, WTFORMS, SQLITE3           |
+| Day 57  | [FLASK: BASIC BLOG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_057/main.py)         | ADVANCED     | FLASK                             |
+| Day 58  | [FLASK: TINDOG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_058/main.py)             | ADVANCED     | FLASK                             |
+| Day 59  | [FLASK: BASIC BLOG 2](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_059/main.py)       | ADVANCED     | FLASK                             |
+| Day 60  | [FLASK: FORMS AND REQUESTS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_060/main.py) | ADVANCED     | FLASK                             |
+| Day 61  | [FLASK: ADVANCED FORMS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_061/main.py)     | ADVANCED     | FLASK, WTFORMS                    |
+| Day 62  | [FLASK: COFFEE AND WIFI](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_062/main.py)    | ADVANCED     | FLASK, WTFORMS                    |
+| Day 63  | [VIRTUAL BOOKSHELF](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_063/main.py)         | ADVANCED     | FLASK, WTFORMS                    |
+| Day 64  | [TOP 10 MOVIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_064/main.py)             | ADVANCED     | FLASK, WTFORMS, SQLITE3           |
 | Day 65  | [UNSET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_065/main.py)                     | ADVANCED     | UNSET                                      |
 | Day 66  | [REST API](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_066/main.py)                  | ADVANCED     |                                            |
 | Day 67  | [BLOG: REST API/CKEDITOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_067/main.py)   | ADVANCED     | FLASK, CKEDITOR                            |
@@ -188,47 +187,6 @@ To run the program launcher locally, you must have Python installed and type 'py
 
    - At the root directory, there is a .env.template file which you should open and fill in your API keys/emails/passwords.
    - Once you have done that, you must rename the file to .env
-
-   <!-- Here is a table on the missing files:
-
-   | FILE                         | TYPE         | DESCRIPTION                                                                                       | LINK FOR CREDENTIAL |
-   | ---------------------------- | ------------ | ------------------------------------------------------------------------------------------------- | ------------------- |
-   | email.secret                 | EMAIL        | Your primary email (gmail used for SMTP)                                                          | gmail.com           |
-   | email_password.secret        | PASSWORD     | Password for your primary email                                                                   | gmail.com           |
-   | flight_app.secret            | API          |
-   | insta_pass.secret            | PASSWORD     |
-   | insta_user.secret            | USERNAME     |
-   | linked_search.secret         | MISC         |
-   | linkedin_email.secret        | EMAIL        |
-   | linkedin_pass.secret         | PASSWORD     |
-   | my_num.secret                | PHONE NUMBER |
-   | newsapikey.secret            | API          |
-   | nutritionix_api.secret       | API          |
-   | nutritionix_app.secret       | API          |
-   | open_weather_api.secret      | API          |
-   | other_email.secret           | EMAIL        |
-   | pixela_user.secret           | USERNAME     |
-   | pixela.secret                | API          |
-   | secret_key.secret            | SECRET KEY   |
-   | sheety_bearer.secret         | TOKEN        |
-   | sheety_flight_api.secret     | API          |
-   | sheety_flight_user.secret    | LINK         |
-   | spotify_client_id.secret     | API          |
-   | spotify_client_secret.secret | API          |
-   | stock_api.secret             | API          |
-   | tequila_api.secret           | API          |
-   | tinder_email.secret          | EMAIL        |
-   | tinder_password.secret       | PASSWORD     |
-   | tmdb_api.secret              | API          |
-   | twilio_id.secret             | USERNAME     |
-   | twilio_num.secret            | PHONE NUMBER |
-   | twilio_password.secret       | PASSWORD     |
-   | twilio_recovery.secret       | MISC         |
-   | twilio_token.secret          | TOKEN        |
-   | twitter_pass.secret          | PASSWORD     | Your Twitter Account Password                                                                     |
-   | twitter_user.secret          | EMAIL        | Your Twitter Account Email                                                                        |
-   | twitter_username.secret      | USERNAME     | Your Twitter Account Username                                                                     |
-   | zillow_form.secret           | LINK         | A Link to your Zillow Form containing a questionairre which a program fills with real-estate data | -->
 
 2. Install Dependencies
 
