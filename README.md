@@ -8,7 +8,7 @@ PythonSensei is a program that runs 100 Python projects which were created over 
 
 Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. However, due to deprecations most days are being redone.
 
-All functional to day 55 @ 10/06/24
+All functional to day 57 @ 10/06/24
 
 Here is a demo of how the program works:
 
@@ -83,9 +83,9 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 54 | [FUNC SPEED DECORATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_054/main.py)           | ADVANCED     |                           |
 | Day 55 | [FLASK: GUESSING GAME](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_055/main.py)           | ADVANCED     | FLASK                     |
 | Day 56 | [FLASK: NAMECARD](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_056/main.py)                | ADVANCED     | FLASK                     |
+| Day 57 | [FLASK: BASIC BLOG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_057/main.py)              | ADVANCED     | FLASK                     |
 
 <!--
-| Day 57  | [FLASK: BASIC BLOG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_057/main.py)         | ADVANCED     | FLASK                             |
 | Day 58  | [FLASK: TINDOG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_058/main.py)             | ADVANCED     | FLASK                             |
 | Day 59  | [FLASK: BASIC BLOG 2](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_059/main.py)       | ADVANCED     | FLASK                             |
 | Day 60  | [FLASK: FORMS AND REQUESTS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_060/main.py) | ADVANCED     | FLASK                             |
