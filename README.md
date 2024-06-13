@@ -8,7 +8,7 @@ PythonSensei is a program that runs 100 Python projects which were created over 
 
 Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. However, due to deprecations most days are being redone.
 
-All functional to day 61 @ 13/06/24
+All functional to day 65 @ 13/06/24
 
 Here is a demo of how the program works:
 
@@ -88,12 +88,12 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 59 | [FLASK: BASIC BLOG 2](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_059/main.py)            | ADVANCED     | FLASK                     |
 | Day 60 | [FLASK: FORMS AND REQUESTS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_060/main.py)      | ADVANCED     | FLASK                     |
 | Day 61 | [FLASK: ADVANCED FORMS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_061/main.py)          | ADVANCED     | FLASK, WTFORMS, BOOTSTRAP |
+| Day 62 | [FLASK: COFFEE AND WIFI](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_062/main.py)         | ADVANCED     | FLASK, WTFORMS            |
+| Day 63 | [VIRTUAL BOOKSHELF](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_063/main.py)              | ADVANCED     | FLASK, WTFORMS            |
+| Day 64 | [TOP 10 MOVIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_064/main.py)                  | ADVANCED     | FLASK, WTFORMS, SQLITE3   |
+| Day 65 | [-](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_065/main.py)                              | ADVANCED     | -                         |
 
 <!--
-| Day 62  | [FLASK: COFFEE AND WIFI](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_062/main.py)    | ADVANCED     | FLASK, WTFORMS                    |
-| Day 63  | [VIRTUAL BOOKSHELF](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_063/main.py)         | ADVANCED     | FLASK, WTFORMS                    |
-| Day 64  | [TOP 10 MOVIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_064/main.py)             | ADVANCED     | FLASK, WTFORMS, SQLITE3           |
-| Day 65  | [UNSET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_065/main.py)                     | ADVANCED     | UNSET                                      |
 | Day 66  | [REST API](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_066/main.py)                  | ADVANCED     |                                            |
 | Day 67  | [BLOG: REST API/CKEDITOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_067/main.py)   | ADVANCED     | FLASK, CKEDITOR                            |
 | Day 68  | [BLOG: AUTHENTICATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_068/main.py)      | PROFESSIONAL | FLASK_LOGIN                                |
@@ -110,6 +110,9 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 79  | [KERNEL DENSITY EST.](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_079/main.py)       | PROFESSIONAL | PANDAS, SEABORN, MATPLOTLIB, PLOTLY, SCIPY |
 | Day 80  | [PROPERTY VALUATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_080/main.py)        | PROFESSIONAL | PANDAS, SEABORN, MATPLOTLIB, PLOTLY, SCIPY |
 | Day 81  | [TEXT TO MORSE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_081/main.py)             | PORTFOLIO    |                                            |
+
+DAYS TO COMPLETE LATER
+| Day 65  | [UNSET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_065/main.py)                     | ADVANCED     | UNSET                                      |
 | Day 82  | [PORTFOLIO WEBSITE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_082/main.py)         | PORTFOLIO    | UNSET                                      |
 | Day 83  | [TIC TAC TOE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_083/main.py)               | PORTFOLIO    | UNSET                                      |
 | Day 84  | [IMAGE WATERMARKING](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_084/main.py)        | PORTFOLIO    | UNSET                                      |
