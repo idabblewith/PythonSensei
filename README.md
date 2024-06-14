@@ -8,7 +8,7 @@ PythonSensei is a program that runs 100 Python projects which were created over 
 
 Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. However, due to deprecations most days are being redone.
 
-All functional to day 66 @ 14/06/24
+All functional to day 67 @ 14/06/24
 
 Here is a demo of how the program works:
 
@@ -93,9 +93,9 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 64 | [TOP 10 MOVIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_064/main.py)                  | ADVANCED     | FLASK, WTFORMS, SQLITE3   |
 | Day 65 | [-](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_065/main.py)                              | ADVANCED     | -                         |
 | Day 66 | [REST API](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_066/main.py)                       | ADVANCED     |                           |
+| Day 67 | [BLOG: REST API/CKEDITOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_067/main.py)        | ADVANCED     | FLASK, CKEDITOR           |
 
 <!--
-| Day 67  | [BLOG: REST API/CKEDITOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_067/main.py)   | ADVANCED     | FLASK, CKEDITOR                            |
 | Day 68  | [BLOG: AUTHENTICATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_068/main.py)      | PROFESSIONAL | FLASK_LOGIN                                |
 | Day 69  | [BLOG: ADDING USERS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_069/main.py)        | PROFESSIONAL | SQL_ALCHEMY                                |
 | Day 70  | [BLOG: DEPLOYMENT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_070/main.py)          | PROFESSIONAL | HEROKU                                     |

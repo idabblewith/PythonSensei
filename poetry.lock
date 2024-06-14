@@ -425,6 +425,20 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
+name = "flask-ckeditor"
+version = "0.5.1"
+description = "CKEditor integration for Flask."
+optional = false
+python-versions = "*"
+files = [
+    {file = "Flask-CKEditor-0.5.1.tar.gz", hash = "sha256:15c8a54a0967cc51b6fa8191ab5fa042e7ee486d6d420c4d5f509a357557c278"},
+    {file = "Flask_CKEditor-0.5.1-py2.py3-none-any.whl", hash = "sha256:330b10f1364a5ef990fd1de72429bb03e4a1ab6ee3aec85f7b38656315dd07fd"},
+]
+
+[package.dependencies]
+Flask = "*"
+
+[[package]]
 name = "flask-sqlalchemy"
 version = "3.1.1"
 description = "Add SQLAlchemy support to your Flask application."
@@ -1871,4 +1885,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "073b664e0d0ba651e660030af41643a01e8972b44c1e1037973772e8e932c0aa"
+content-hash = "0ae0be0acaa1769afc30984a97c77e53e3ba2db53250ca4e6991296f46c3df92"
