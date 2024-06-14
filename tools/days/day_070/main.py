@@ -3,6 +3,7 @@ from days.day_070.files.helpers import *
 
 def day_070():
     title("BLOG: DEPLOYMENT")
+    nls("Hosted on https://pythonsenseiday70.onrender.com")
     template_folder_path = os.path.join(os.path.dirname(__file__), "files", "templates")
     static_folder_path = os.path.join(os.path.dirname(__file__), "files", "static")
     app = Flask(
