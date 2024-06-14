@@ -23,7 +23,7 @@ _RUNNING PROGRAM_
 
 Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
 
-All functional to day 72 @ 14/06/24
+All functional to day 73 @ 14/06/24
 
 | DAY    | PROJECT                                                                                                            | SKILL LEVEL  | NOTABLE TECH              |
 | ------ | ------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------- |
@@ -99,9 +99,9 @@ All functional to day 72 @ 14/06/24
 | Day 70 | [BLOG: DEPLOYMENT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_070/main.py)               | PROFESSIONAL | RENDER, GUNICORN, PSYCOPG |
 | Day 71 | [PANDAS DATA EXPLORATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_071/main.py)        | PROFESSIONAL | PANDAS                    |
 | Day 72 | [MATPLOTLIB](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_072/main.py)                     | PROFESSIONAL | PANDAS, MATPLOTLIB        |
+| Day 73 | [LEGO PANDAS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_073/main.py)                    | PROFESSIONAL | PANDAS, MATPLOTLIB        |
 
 <!--
-| Day 73  | [LEGO PANDAS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_073/main.py)               | PROFESSIONAL | PANDAS, MATPLOTLIB                         |
 | Day 74  | [GTRENDS AND MATPLOTLIB](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_074/main.py)    | PROFESSIONAL | PANDAS, MATPLOTLIB                         |
 | Day 75  | [PLOTTING APP STORE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_075/main.py)        | PROFESSIONAL | PLOTLY, PANDAS, MATPLOTLIB                 |
 | Day 76  | [NUMPY](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_076/main.py)                     | PROFESSIONAL | NUMPY, MATPLOTLIB, SCIPY, PIL              |
