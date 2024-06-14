@@ -8,8 +8,6 @@ PythonSensei is a program that runs 100 Python projects which were created over 
 
 Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. However, due to deprecations most days are being redone.
 
-All functional to day 67 @ 14/06/24
-
 Here is a demo of how the program works:
 
 _STARTING PYTHONSENSEI_
@@ -24,6 +22,8 @@ _RUNNING PROGRAM_
 ## List of Projects
 
 Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
+
+All functional to day 68 @ 14/06/24
 
 | DAY    | PROJECT                                                                                                            | SKILL LEVEL  | NOTABLE TECH              |
 | ------ | ------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------- |
@@ -94,9 +94,9 @@ Use the table below to develop an understanding of the projects.<br>The last twe
 | Day 65 | [-](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_065/main.py)                              | ADVANCED     | -                         |
 | Day 66 | [REST API](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_066/main.py)                       | ADVANCED     |                           |
 | Day 67 | [BLOG: REST API/CKEDITOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_067/main.py)        | ADVANCED     | FLASK, CKEDITOR           |
+| Day 68 | [BLOG: AUTHENTICATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_068/main.py)           | PROFESSIONAL | FLASK_LOGIN               |
 
 <!--
-| Day 68  | [BLOG: AUTHENTICATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_068/main.py)      | PROFESSIONAL | FLASK_LOGIN                                |
 | Day 69  | [BLOG: ADDING USERS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_069/main.py)        | PROFESSIONAL | SQL_ALCHEMY                                |
 | Day 70  | [BLOG: DEPLOYMENT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_070/main.py)          | PROFESSIONAL | HEROKU                                     |
 | Day 71  | [PANDAS DATA EXPLORATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_071/main.py)   | PROFESSIONAL | PANDAS                                     |
