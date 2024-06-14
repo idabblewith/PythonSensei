@@ -23,7 +23,7 @@ _RUNNING PROGRAM_
 
 Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
 
-All functional to day 68 @ 14/06/24
+All functional to day 69 @ 14/06/24
 
 | DAY    | PROJECT                                                                                                            | SKILL LEVEL  | NOTABLE TECH              |
 | ------ | ------------------------------------------------------------------------------------------------------------------ | ------------ | ------------------------- |
@@ -95,9 +95,9 @@ All functional to day 68 @ 14/06/24
 | Day 66 | [REST API](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_066/main.py)                       | ADVANCED     |                           |
 | Day 67 | [BLOG: REST API/CKEDITOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_067/main.py)        | ADVANCED     | FLASK, CKEDITOR           |
 | Day 68 | [BLOG: AUTHENTICATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_068/main.py)           | PROFESSIONAL | FLASK_LOGIN               |
+| Day 69 | [BLOG: ADDING USERS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_069/main.py)             | PROFESSIONAL | SQL_ALCHEMY, GRAVATAR     |
 
 <!--
-| Day 69  | [BLOG: ADDING USERS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_069/main.py)        | PROFESSIONAL | SQL_ALCHEMY                                |
 | Day 70  | [BLOG: DEPLOYMENT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_070/main.py)          | PROFESSIONAL | HEROKU                                     |
 | Day 71  | [PANDAS DATA EXPLORATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_071/main.py)   | PROFESSIONAL | PANDAS                                     |
 | Day 72  | [MATPLOTLIB](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_072/main.py)                | PROFESSIONAL | PANDAS, MATPLOTLIB                         |
