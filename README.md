@@ -23,7 +23,7 @@ _RUNNING PROGRAM_
 
 Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
 
-All functional to day 76 @ 15/06/24
+All functional to day 77 @ 16/06/24
 
 | DAY          | PROJECT                                                                                                                | SKILL LEVEL  | NOTABLE TECH                               |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------ |
