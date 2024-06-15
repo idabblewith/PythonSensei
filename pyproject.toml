@@ -34,6 +34,7 @@ gunicorn = "^22.0.0"
 psycopg-binary = "^3.1.19"
 matplotlib = "^3.9.0"
 plotly = "^5.22.0"
+scipy = "^1.13.1"
 
 
 [build-system]

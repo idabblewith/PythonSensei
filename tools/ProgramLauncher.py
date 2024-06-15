@@ -76,32 +76,31 @@ from days.day_072.main import day_072
 from days.day_073.main import day_073
 from days.day_074.main import day_074
 from days.day_075.main import day_075
-
-# from days.day_076.main import day_076
-# from days.day_077.main import day_077
-# from days.day_078.main import day_078
-# from days.day_079.main import day_079
-# from days.day_080.main import day_080
-# from days.day_081.main import day_081
-# from days.day_082.main import day_082
-# from days.day_083.main import day_083
-# from days.day_084.main import day_084
-# from days.day_085.main import day_085
-# from days.day_086.main import day_086
-# from days.day_087.main import day_087
-# from days.day_088.main import day_088
-# from days.day_089.main import day_089
-# from days.day_090.main import day_090
-# from days.day_091.main import day_091
-# from days.day_092.main import day_092
-# from days.day_093.main import day_093
-# from days.day_094.main import day_094
-# from days.day_095.main import day_095
-# from days.day_096.main import day_096
-# from days.day_097.main import day_097
-# from days.day_098.main import day_098
-# from days.day_099.main import day_099
-# from days.day_100.main import day_100
+from days.day_076.main import day_076
+from days.day_077.main import day_077
+from days.day_078.main import day_078
+from days.day_079.main import day_079
+from days.day_080.main import day_080
+from days.day_081.main import day_081
+from days.day_082.main import day_082
+from days.day_083.main import day_083
+from days.day_084.main import day_084
+from days.day_085.main import day_085
+from days.day_086.main import day_086
+from days.day_087.main import day_087
+from days.day_088.main import day_088
+from days.day_089.main import day_089
+from days.day_090.main import day_090
+from days.day_091.main import day_091
+from days.day_092.main import day_092
+from days.day_093.main import day_093
+from days.day_094.main import day_094
+from days.day_095.main import day_095
+from days.day_096.main import day_096
+from days.day_097.main import day_097
+from days.day_098.main import day_098
+from days.day_099.main import day_099
+from days.day_100.main import day_100
 import os, sys, traceback, re
 
 
@@ -184,12 +183,36 @@ class ProgramLauncher:
             day_073,
             day_074,
             day_075,
+            day_076,
+            day_077,
+            day_078,
+            day_079,
+            day_080,
+            day_081,
+            day_082,
+            day_083,
+            day_084,
+            day_085,
+            day_086,
+            day_087,
+            day_088,
+            day_089,
+            day_090,
+            day_091,
+            day_092,
+            day_093,
+            day_094,
+            day_095,
+            day_096,
+            day_097,
+            day_098,
+            day_099,
+            day_100,
         ]
-        #   ,  day_076, day_077, day_078, day_079, day_080, day_081, day_082, day_083, day_084, day_085, day_086, day_087, day_088, day_089, day_090, day_091, day_092, day_093, day_094, day_095, day_096, day_097, day_098, day_099, day_100
+
         self.program_id = None
         self.selected = None
 
-    # , day21, day22, day23, day24, day25, day26, day27, day28, day29, day30, day31, day32, day33, day34, day35, day36, day37, day38, day39, day40, day41, day42, day43, day44, day45, day46, day47, day48, day49, day50, day51, day52, day53, day54, day55, day56, day57, day58, day59, day60, day61, day62, day63, day64, day65, day66, day67, day68, day69, day70, day71, day72, day73, day74, day75, day76, day77, day78, day79, day80, day81, day82, day83, day84, day85, day86, day87, day88, day89, day90, day91, day92, day93, day94, day95, day96, day97, day98, day99, day100
     def set_program(self, program):
         self.program_id = int(program)
         self.selected = f"day{str(program)}"
