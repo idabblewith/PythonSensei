@@ -37,6 +37,7 @@ plotly = "^5.22.0"
 scipy = "^1.13.1"
 scikit-learn = "^1.5.0"
 seaborn = "^0.13.2"
+statsmodels = "^0.14.2"
 
 
 [build-system]
