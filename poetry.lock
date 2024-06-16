@@ -2023,6 +2023,49 @@ files = [
 ]
 
 [[package]]
+name = "sounddevice"
+version = "0.4.7"
+description = "Play and Record Sound with Python"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "sounddevice-0.4.7-py3-none-any.whl", hash = "sha256:1c3f18bfa4d9a257f5715f2ab83f2c0eb412a09f3e6a9fa73720886ca88f6bc7"},
+    {file = "sounddevice-0.4.7-py3-none-macosx_10_6_x86_64.macosx_10_6_universal2.whl", hash = "sha256:d6ddfd341ad7412b14ca001f2c4dbf5fa2503bdc9eb15ad2c3105f6c260b698a"},
+    {file = "sounddevice-0.4.7-py3-none-win32.whl", hash = "sha256:1ec1df094c468a210113aa22c4f390d5b4d9c7a73e41a6cb6ecfec83db59b380"},
+    {file = "sounddevice-0.4.7-py3-none-win_amd64.whl", hash = "sha256:0c8b3543da1496f282b66a7bc54b755577ba638b1af06c146d4ac7f39d86b548"},
+    {file = "sounddevice-0.4.7.tar.gz", hash = "sha256:69b386818d50a2d518607d4b973442e8d524760c7cd6c8b8be03d8c98fc4bce7"},
+]
+
+[package.dependencies]
+CFFI = ">=1.0"
+
+[package.extras]
+numpy = ["NumPy"]
+
+[[package]]
+name = "soundfile"
+version = "0.12.1"
+description = "An audio library based on libsndfile, CFFI and NumPy"
+optional = false
+python-versions = "*"
+files = [
+    {file = "soundfile-0.12.1-py2.py3-none-any.whl", hash = "sha256:828a79c2e75abab5359f780c81dccd4953c45a2c4cd4f05ba3e233ddf984b882"},
+    {file = "soundfile-0.12.1-py2.py3-none-macosx_10_9_x86_64.whl", hash = "sha256:d922be1563ce17a69582a352a86f28ed8c9f6a8bc951df63476ffc310c064bfa"},
+    {file = "soundfile-0.12.1-py2.py3-none-macosx_11_0_arm64.whl", hash = "sha256:bceaab5c4febb11ea0554566784bcf4bc2e3977b53946dda2b12804b4fe524a8"},
+    {file = "soundfile-0.12.1-py2.py3-none-manylinux_2_17_x86_64.whl", hash = "sha256:2dc3685bed7187c072a46ab4ffddd38cef7de9ae5eb05c03df2ad569cf4dacbc"},
+    {file = "soundfile-0.12.1-py2.py3-none-manylinux_2_31_x86_64.whl", hash = "sha256:074247b771a181859d2bc1f98b5ebf6d5153d2c397b86ee9e29ba602a8dfe2a6"},
+    {file = "soundfile-0.12.1-py2.py3-none-win32.whl", hash = "sha256:59dfd88c79b48f441bbf6994142a19ab1de3b9bb7c12863402c2bc621e49091a"},
+    {file = "soundfile-0.12.1-py2.py3-none-win_amd64.whl", hash = "sha256:0d86924c00b62552b650ddd28af426e3ff2d4dc2e9047dae5b3d8452e0a49a77"},
+    {file = "soundfile-0.12.1.tar.gz", hash = "sha256:e8e1017b2cf1dda767aef19d2fd9ee5ebe07e050d430f77a0a7c66ba08b8cdae"},
+]
+
+[package.dependencies]
+cffi = ">=1.0"
+
+[package.extras]
+numpy = ["numpy"]
+
+[[package]]
 name = "soupsieve"
 version = "2.5"
 description = "A modern CSS selector implementation for Beautiful Soup."
@@ -2568,4 +2611,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "489044ba49c5a7d2c3ddeaad50770dfa50748896159ff7cf7357ff769f84510c"
+content-hash = "50a74f4522a3d14132bcc56ac5c2af1356c084e30c2eebfb0f3441870e389ddb"

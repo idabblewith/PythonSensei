@@ -23,7 +23,7 @@ _RUNNING PROGRAM_
 
 Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
 
-All functional to day 76 @ 15/06/24
+All functional to day 81 @ 16/06/24
 
 | DAY    | PROJECT                                                                                                                | SKILL LEVEL  | NOTABLE TECH                               |
 | ------ | ---------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------ |
@@ -107,10 +107,10 @@ All functional to day 76 @ 15/06/24
 | Day 78 | [NOBEL PRIZE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_078/main.py)                        | PROFESSIONAL | SEABORN, MATPLOTLIB, PLOTLY, SCIPY         |
 | Day 79 | [KERNEL DENSITY EST.](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_079/main.py)                | PROFESSIONAL | PANDAS, SEABORN, MATPLOTLIB, PLOTLY, SCIPY |
 | Day 80 | [PROPERTY VALUATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_080/main.py)                 | PROFESSIONAL | PANDAS, SEABORN, MATPLOTLIB, PLOTLY, SCIPY |
+| Day 81 | [TEXT TO MORSE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_081/main.py)                      | PORTFOLIO    |                                            |
 
 <!--
 
-| Day 81  | [TEXT TO MORSE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_081/main.py)             | PORTFOLIO    |                                            |
 | Day 82  | [PORTFOLIO WEBSITE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_082/main.py)         | PORTFOLIO    | UNSET                                      |
 | Day 83  | [TIC TAC TOE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_083/main.py)               | PORTFOLIO    | UNSET                                      |
 | Day 84  | [IMAGE WATERMARKING](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_084/main.py)        | PORTFOLIO    | UNSET                                      |
