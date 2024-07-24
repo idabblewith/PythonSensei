@@ -83,24 +83,25 @@ from days.day_079.main import day_079
 from days.day_080.main import day_080
 from days.day_081.main import day_081
 from days.day_082.main import day_082
-from days.day_083.main import day_083
-from days.day_084.main import day_084
-from days.day_085.main import day_085
-from days.day_086.main import day_086
-from days.day_087.main import day_087
-from days.day_088.main import day_088
-from days.day_089.main import day_089
-from days.day_090.main import day_090
-from days.day_091.main import day_091
-from days.day_092.main import day_092
-from days.day_093.main import day_093
-from days.day_094.main import day_094
-from days.day_095.main import day_095
-from days.day_096.main import day_096
-from days.day_097.main import day_097
-from days.day_098.main import day_098
-from days.day_099.main import day_099
-from days.day_100.main import day_100
+
+# from days.day_083.main import day_083
+# from days.day_084.main import day_084
+# from days.day_085.main import day_085
+# from days.day_086.main import day_086
+# from days.day_087.main import day_087
+# from days.day_088.main import day_088
+# from days.day_089.main import day_089
+# from days.day_090.main import day_090
+# from days.day_091.main import day_091
+# from days.day_092.main import day_092
+# from days.day_093.main import day_093
+# from days.day_094.main import day_094
+# from days.day_095.main import day_095
+# from days.day_096.main import day_096
+# from days.day_097.main import day_097
+# from days.day_098.main import day_098
+# from days.day_099.main import day_099
+# from days.day_100.main import day_100
 import os, sys, traceback, re
 
 
@@ -190,24 +191,24 @@ class ProgramLauncher:
             day_080,
             day_081,
             day_082,
-            day_083,
-            day_084,
-            day_085,
-            day_086,
-            day_087,
-            day_088,
-            day_089,
-            day_090,
-            day_091,
-            day_092,
-            day_093,
-            day_094,
-            day_095,
-            day_096,
-            day_097,
-            day_098,
-            day_099,
-            day_100,
+            # day_083,
+            # day_084,
+            # day_085,
+            # day_086,
+            # day_087,
+            # day_088,
+            # day_089,
+            # day_090,
+            # day_091,
+            # day_092,
+            # day_093,
+            # day_094,
+            # day_095,
+            # day_096,
+            # day_097,
+            # day_098,
+            # day_099,
+            # day_100,
         ]
 
         self.program_id = None
