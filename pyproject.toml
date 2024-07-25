@@ -40,6 +40,7 @@ seaborn = "^0.13.2"
 statsmodels = "^0.14.2"
 soundfile = "^0.12.1"
 sounddevice = "^0.4.7"
+yfinance = "^0.2.41"
 
 
 [build-system]

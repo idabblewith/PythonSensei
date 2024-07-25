@@ -45,7 +45,7 @@ All functional to day 83 @ 17/06/24
 | Day 85  | [TYPING SPEED](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_085/main.py)                       | PORTFOLIO    | UNSET                                      |
 | Day 84  | [IMAGE WATERMARKING](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_084/main.py)                 | PORTFOLIO    | UNSET                                      |
 | Day 83  | [TIC TAC TOE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_083/main.py)                        | PORTFOLIO    | UNSET                                      |
-| Day 82  | [CREW AI BOT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_082/main.py)                        | PORTFOLIO    | UNSET                                      |
+| Day 82  | [STOCK ANALYSIS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_082/main.py)                     | PORTFOLIO    | UNSET                                      |
 | Day 81  | [TEXT TO MORSE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_081/main.py)                      | PORTFOLIO    |                                            |
 | Day 80  | [PROPERTY VALUATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_080/main.py)                 | PROFESSIONAL | PANDAS, SEABORN, MATPLOTLIB, PLOTLY, SCIPY |
 | Day 79  | [KERNEL DENSITY EST.](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_079/main.py)                | PROFESSIONAL | PANDAS, SEABORN, MATPLOTLIB, PLOTLY, SCIPY |
