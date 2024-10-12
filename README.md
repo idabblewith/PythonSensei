@@ -23,30 +23,30 @@ _RUNNING PROGRAM_
 
 Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
 
-All functional to day 83 @ 17/06/24
+All functional to day 90 @ 12/10/24
 
 | DAY     | PROJECT                                                                                                                | SKILL LEVEL  | NOTABLE TECH                               |
 | ------- | ---------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------ |
-| Day 100 | [PREDICT SALARIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_100/main.py)                   | PORTFOLIO    | UNSET                                      |
-| Day 99  | [POLICE DEATHS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_099/main.py)                      | PORTFOLIO    | UNSET                                      |
-| Day 98  | [SPACE RACE DATA](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_098/main.py)                    | PORTFOLIO    | UNSET                                      |
-| Day 97  | [LIFE AUTOMATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_097/main.py)                    | PORTFOLIO    | UNSET                                      |
-| Day 96  | [ONLINE SHOP](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_096/main.py)                        | PORTFOLIO    | UNSET                                      |
-| Day 95  | [CUSTOM API SITE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_095/main.py)                    | PORTFOLIO    | UNSET                                      |
-| Day 94  | [SPACE INVADERS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_094/main.py)                     | PORTFOLIO    | UNSET                                      |
-| Day 93  | [GOOGLE DINOSAUR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_093/main.py)                    | PORTFOLIO    | UNSET                                      |
-| Day 92  | [CUSTOM WEB SCRAPER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_092/main.py)                 | PORTFOLIO    | UNSET                                      |
-| Day 91  | [COLOR-PAL GEN](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_091/main.py)                      | PORTFOLIO    | UNSET                                      |
-| Day 90  | [PDF TO AUDIOBOOK](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_090/main.py)                   | PORTFOLIO    | UNSET                                      |
-| Day 89  | [DISAPPEARING TEXT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_089/main.py)                  | PORTFOLIO    | UNSET                                      |
-| Day 88  | [TODO LIST](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_088/main.py)                          | PORTFOLIO    | UNSET                                      |
-| Day 87  | [CAFE AND WIFI](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_087/main.py)                      | PORTFOLIO    | UNSET                                      |
-| Day 86  | [BREAKOUT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_086/main.py)                           | PORTFOLIO    | UNSET                                      |
-| Day 85  | [TYPING SPEED](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_085/main.py)                       | PORTFOLIO    | UNSET                                      |
-| Day 84  | [IMAGE WATERMARKING](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_084/main.py)                 | PORTFOLIO    | UNSET                                      |
-| Day 83  | [TIC TAC TOE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_083/main.py)                        | PORTFOLIO    | UNSET                                      |
-| Day 82  | [STOCK ANALYSIS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_082/main.py)                     | PORTFOLIO    | UNSET                                      |
-| Day 81  | [TEXT TO MORSE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_081/main.py)                      | PORTFOLIO    |                                            |
+| Day 100 | [PREDICT SALARIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_100/main.py)                   | VARIOUS      | UNSET                                      |
+| Day 99  | [POLICE DEATHS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_099/main.py)                      | VARIOUS      | UNSET                                      |
+| Day 98  | [SPACE RACE DATA](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_098/main.py)                    | VARIOUS      | UNSET                                      |
+| Day 97  | [LIFE AUTOMATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_097/main.py)                    | VARIOUS      | UNSET                                      |
+| Day 96  | [ONLINE SHOP](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_096/main.py)                        | VARIOUS      | UNSET                                      |
+| Day 95  | [CUSTOM API SITE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_095/main.py)                    | VARIOUS      | UNSET                                      |
+| Day 94  | [SPACE INVADERS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_094/main.py)                     | VARIOUS      | UNSET                                      |
+| Day 93  | [GOOGLE DINOSAUR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_093/main.py)                    | VARIOUS      | UNSET                                      |
+| Day 92  | [CUSTOM WEB SCRAPER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_092/main.py)                 | VARIOUS      | UNSET                                      |
+| Day 91  | [COLOR-PAL GEN](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_091/main.py)                      | VARIOUS      | UNSET                                      |
+| Day 90  | [PDF TO AUDIOBOOK](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_090/main.py)                   | VARIOUS      | PYPDF2, PYTTSX3                            |
+| Day 89  | [DISAPPEARING TEXT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_089/main.py)                  | VARIOUS      | FLASK, SQLALCHEMY                          |
+| Day 88  | [TODO LIST](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_088/main.py)                          | VARIOUS      | FLASK, SQLALCHEMY                          |
+| Day 87  | [CAFE AND WIFI](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_087/main.py)                      | VARIOUS      | FLASK, SQLALCHEMY                          |
+| Day 86  | [BREAKOUT](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_086/main.py)                           | VARIOUS      | TURTLE                                     |
+| Day 85  | [TYPING SPEED](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_085/main.py)                       | VARIOUS      | TKINTER                                    |
+| Day 84  | [IMAGE WATERMARKING](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_084/main.py)                 | VARIOUS      | NUMPY, TKINTER, PIL, SUBPROCESS            |
+| Day 83  | [TIC TAC TOE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_083/main.py)                        | VARIOUS      |                                            |
+| Day 82  | [STOCK ANALYSIS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_082/main.py)                     | VARIOUS      | YAHOO FINANCE, PANDAS, MATPLOTLIB          |
+| Day 81  | [TEXT TO MORSE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_081/main.py)                      | VARIOUS      | SCIPY, NUMPY, SOUNDFILE, SOUNDDEVICE       |
 | Day 80  | [PROPERTY VALUATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_080/main.py)                 | PROFESSIONAL | PANDAS, SEABORN, MATPLOTLIB, PLOTLY, SCIPY |
 | Day 79  | [KERNEL DENSITY EST.](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_079/main.py)                | PROFESSIONAL | PANDAS, SEABORN, MATPLOTLIB, PLOTLY, SCIPY |
 | Day 78  | [NOBEL PRIZE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_078/main.py)                        | PROFESSIONAL | SEABORN, MATPLOTLIB, PLOTLY, SCIPY         |
@@ -133,7 +133,7 @@ All functional to day 83 @ 17/06/24
 
 DAYS TO COMPLETE LATER
 | Day 65  | [UNSET](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_065/main.py)                     | ADVANCED     | UNSET                                      |
-| Day 82 | [-](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_082/main.py)                                  | PORTFOLIO    | UNSET                                      |
+| Day 82 | [-](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_082/main.py)                                  | VARIOUS    | UNSET                                      |
 
 
 -->
