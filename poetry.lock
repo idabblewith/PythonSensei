@@ -191,6 +191,24 @@ html5lib = ["html5lib"]
 lxml = ["lxml"]
 
 [[package]]
+name = "bleach"
+version = "6.1.0"
+description = "An easy safelist-based HTML-sanitizing tool."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "bleach-6.1.0-py3-none-any.whl", hash = "sha256:3225f354cfc436b9789c66c4ee030194bee0568fbf9cbdad3bc8b5c26c5f12b6"},
+    {file = "bleach-6.1.0.tar.gz", hash = "sha256:0a31f1837963c41d46bbf1331b8778e1308ea0791db03cc4e7357b97cf42a8fe"},
+]
+
+[package.dependencies]
+six = ">=1.9.0"
+webencodings = "*"
+
+[package.extras]
+css = ["tinycss2 (>=1.1.0,<1.3)"]
+
+[[package]]
 name = "blinker"
 version = "1.8.2"
 description = "Fast, simple object-to-object and broadcast signaling"
@@ -592,7 +610,9 @@ files = [
 ]
 
 [package.dependencies]
+bleach = {version = "*", optional = true, markers = "extra == \"all\""}
 Flask = "*"
+flask-wtf = {version = "*", optional = true, markers = "extra == \"all\""}
 
 [package.extras]
 all = ["bleach", "flask-wtf"]
@@ -3089,4 +3109,4 @@ repair = ["scipy (>=1.6.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "2cdab92e9af25c737ad32801906b395ed2f790058037d2242f22be18eb9444c2"
+content-hash = "de7baaa4b284b9684f1e0bee90a22eae8535e116950311b3c38788aa917816d5"

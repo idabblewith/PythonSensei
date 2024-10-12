@@ -4,6 +4,12 @@ from days.day_049.files.helpers import *
 def day_049():
     title("AUTOMATED JOB SAVER")
     load_dotenv()
+    # A mode checker that runs until the user enters a valid mode ('a' or 's')
+    mode = ""
+    while mode != "a" and mode != "s":
+        mode = nli(
+            "Would you like to apply to jobs or save them? (a for apply, s for save)"
+        )
     LINKEDIN_EMAIL = os.getenv("LINKEDIN_EMAIL")
     LINKEDIN_PASSWORD = os.getenv("LINKEDIN_PASSWORD")
     LINKEDIN_SEARCH_QUERY = os.getenv(
@@ -28,10 +34,11 @@ def day_049():
     sign_in_btn = driver.find_element(By.CSS_SELECTOR, "button.btn__primary--large")
     sign_in_btn.click()
 
-    time.sleep(10)
+    time.sleep(5)
 
     driver.get(
-        f"https://www.linkedin.com/jobs/search/?currentJobId=3940975882&keywords={LINKEDIN_SEARCH_QUERY}&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true"
+        f"https://www.linkedin.com/jobs/search/?currentJobId=4046275388&keywords={LINKEDIN_SEARCH_QUERY}&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true"
+        # f"https://www.linkedin.com/jobs/search/?currentJobId=3940975882&keywords={LINKEDIN_SEARCH_QUERY}&origin=JOBS_HOME_SEARCH_BUTTON&refresh=true"
     )
     time.sleep(2)
 
@@ -51,10 +58,15 @@ def day_049():
         job.click()
         time.sleep(2)
         try:
-            save_job_btn = driver.find_element(
-                By.CSS_SELECTOR, "button.jobs-save-button"
-            )
-            save_job_btn.click()
+            # Apply or save based on mode
+            if mode == "a":
+                apply_btn = driver.find_element(By.CSS_SELECTOR, "button.jobs-apply-button")
+                apply_btn.click()
+            else:
+                save_job_btn = driver.find_element(
+                    By.CSS_SELECTOR, "button.jobs-save-button"
+                )
+                save_job_btn.click()
             time.sleep(2)
             close = driver.find_element(
                 By.CSS_SELECTOR,

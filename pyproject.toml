@@ -40,7 +40,7 @@ soundfile = "^0.12.1"
 yfinance = "^0.2.41"
 sounddevice = "^0.5.0"
 gunicorn = "^23.0.0"
-flask-ckeditor = "^1.0.0"
+flask-ckeditor = {extras = ["all"], version = "^1.0.0"}
 
 
 [build-system]
