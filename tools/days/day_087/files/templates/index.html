@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafes for Remote Working</title>
+</head>
+<body>
+    <h1>List of Cafes with Wifi and Power</h1>
+    
+    <ul>
+        {% for cafe in cafes %}
+        <li>
+            <strong>{{ cafe.name }}</strong><br>
+            Address: {{ cafe.address }}<br>
+            Wifi: {% if cafe.wifi %}Yes{% else %}No{% endif %}<br>
+            Power: {% if cafe.power %}Yes{% else %}No{% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    
+    <a href="{{ url_for('add_cafe') }}">Add a New Cafe</a>
+</body>
+</html>
