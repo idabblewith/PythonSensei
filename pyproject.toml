@@ -44,6 +44,7 @@ flask-ckeditor = {extras = ["all"], version = "^1.0.0"}
 pyttsx3 = "^2.98"
 pypdf2 = "^3.0.1"
 pycryptodome = "^3.21.0"
+pygame = "^2.6.1"
 
 
 [build-system]

@@ -4,9 +4,11 @@
 
 ## Introduction
 
-PythonSensei is a program that runs 100 Python projects which were created over the course of 100 Days.<br>The 100 programs that PythonSensei can run are primarily based on [Angela Yu's 100 Days of Code Udemy Course](https://www.udemy.com/course/100-days-of-code), range from beginner to professional, and are optomised to be run via selection on a command line interface.
+PythonSensei is a program that runs 100 Python projects which were created over the course of 100 Days.
 
-Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. However, due to deprecations most days are being redone.
+The 100 programs that PythonSensei can run are primarily based on [Angela Yu's 100 Days of Code Udemy Course](https://www.udemy.com/course/100-days-of-code), range from beginner to professional, and are optomised to be run via selection on a command line interface.
+
+Please note that this collection of programs was made after having completed the 100 day challenge in 2021. This serves as a means to stitch programs together and make them more accessible. Due to deprecations over the years, the projects may be reworked.
 
 Here is a demo of how the program works:
 
@@ -21,20 +23,20 @@ _RUNNING PROGRAM_
 
 ## List of Projects
 
-Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'Portfolio'. <br>
+Use the table below to develop an understanding of the projects.<br>The last twenty projects are intended to be a culmination of the skills learned throughout Angela's course and are thus marked 'VARIOUS'. <br>
 
-All functional to day 90 @ 12/10/24
+All functional to day 100 @ 13/10/24
 
 | DAY     | PROJECT                                                                                                                | SKILL LEVEL  | NOTABLE TECH                               |
 | ------- | ---------------------------------------------------------------------------------------------------------------------- | ------------ | ------------------------------------------ |
-| Day 100 | [PREDICT SALARIES](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_100/main.py)                   | VARIOUS      | UNSET                                      |
-| Day 99  | [POLICE DEATHS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_099/main.py)                      | VARIOUS      | UNSET                                      |
-| Day 98  | [SPACE RACE DATA](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_098/main.py)                    | VARIOUS      | UNSET                                      |
-| Day 97  | [LIFE AUTOMATION](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_097/main.py)                    | VARIOUS      | UNSET                                      |
-| Day 96  | [ONLINE SHOP](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_096/main.py)                        | VARIOUS      | UNSET                                      |
-| Day 95  | [CUSTOM API SITE](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_095/main.py)                    | VARIOUS      | UNSET                                      |
-| Day 94  | [SPACE INVADERS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_094/main.py)                     | VARIOUS      | UNSET                                      |
-| Day 93  | [GOOGLE DINOSAUR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_093/main.py)                    | VARIOUS      | UNSET                                      |
+| Day 100 | [PACMAN](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_100/main.py)                             | VARIOUS      | UNSET                                      |
+| Day 99  | [DONKEY KONG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_099/main.py)                        | VARIOUS      | UNSET                                      |
+| Day 98  | [TETRIS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_098/main.py)                             | VARIOUS      | UNSET                                      |
+| Day 97  | [CHESS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_097/main.py)                              | VARIOUS      | UNSET                                      |
+| Day 96  | [SPACE INVADERS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_096/main.py)                     | VARIOUS      | UNSET                                      |
+| Day 95  | [SPACE RACE DATA](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_095/main.py)                    | VARIOUS      | UNSET                                      |
+| Day 94  | [POLICE DEATHS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_094/main.py)                      | VARIOUS      | UNSET                                      |
+| Day 93  | [DEV SALARY ANALYSIS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_093/main.py)                | VARIOUS      | UNSET                                      |
 | Day 92  | [CUSTOM WEB SCRAPER](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_092/main.py)                 | VARIOUS      | UNSET                                      |
 | Day 91  | [COLOR-PAL GEN](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_091/main.py)                      | VARIOUS      | UNSET                                      |
 | Day 90  | [PDF TO AUDIOBOOK](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_090/main.py)                   | VARIOUS      | PYPDF2, PYTTSX3                            |
@@ -179,12 +181,6 @@ To name a few key components:
 
 ## Local Development Setup
 
-To locally run the programs in PythonSensei, you require a total of 36 credentials. For obvious security reasons, these files have been gitignored and will not be made publicly available.
-
-You must fill out the .env.template file with your own credentials and remove the '.template' for each program to work locally.
-I am currently implementing a fix so that you can still run other programs that do not require credentials. You will be alerted if your credentials are missing.
-
-NOTES:
 To run the program launcher locally, you must have Python installed and type 'python start.py' from the root directory (where start.py is located).
 
 -   Note that you need to install npcap locally to run Day 13/scapy (https://npcap.com)
@@ -195,6 +191,7 @@ To run the program launcher locally, you must have Python installed and type 'py
 
     - At the root directory, there is a .env.template file which you should open and fill in your API keys/emails/passwords.
     - Once you have done that, you must rename the file to .env
+    - THIS MUST BE DONE. For security reasons, the .env file with these 36 credentials has been gitignored. You must create your own.
 
 2. Install Dependencies
 
