@@ -3,7 +3,7 @@ from days.day_097.files.helpers import *
 
 def day_097():
     """
-    A tkinter program that takes in a png image and pixelates it.
+    A tkinter program that takes in a png/jpg image and pixelates it.
     """
     title("PIXELATOR")
     global processed_image, selected_file_path, pixel_size
