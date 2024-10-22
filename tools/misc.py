@@ -215,7 +215,7 @@ program_names = [
     "POLICE DEATHS ANALYSIS",
     "SPACE RACE DATA ANALYSIS",
     "SPACE INVADERS",
-    "CHESS",
+    "PIXELATOR",
     "TETRIS",
     "DONKEY KONG",
     "PACMAN",

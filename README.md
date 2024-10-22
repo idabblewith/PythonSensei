@@ -32,7 +32,7 @@ All functional to day 100 @ 13/10/24
 | Day 100 | [PACMAN](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_100/main.py)                             | VARIOUS      | UNSET                                      |
 | Day 99  | [DONKEY KONG](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_099/main.py)                        | VARIOUS      | UNSET                                      |
 | Day 98  | [TETRIS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_098/main.py)                             | VARIOUS      | UNSET                                      |
-| Day 97  | [CHESS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_097/main.py)                              | VARIOUS      | UNSET                                      |
+| Day 97  | [PIXELATOR](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_097/main.py)                          | VARIOUS      | UNSET                                      |
 | Day 96  | [SPACE INVADERS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_096/main.py)                     | VARIOUS      | UNSET                                      |
 | Day 95  | [SPACE RACE DATA](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_095/main.py)                    | VARIOUS      | UNSET                                      |
 | Day 94  | [POLICE DEATHS](https://github.com/idabblewith/PythonSensei/blob/main/tools/days/day_094/main.py)                      | VARIOUS      | UNSET                                      |
