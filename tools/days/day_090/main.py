@@ -3,10 +3,10 @@ from days.day_090.files.helpers import *
 
 def day_090():
     title("PDF TO AUDIOBOOK")
-    import PyPDF2
     from gtts import gTTS
     import os
-    from PyPDF2.errors import PdfReadError
+    from pypdf import PdfReader
+    from pypdf.errors import PdfReadError
     import tempfile
     import platform
     import subprocess
@@ -14,7 +14,7 @@ def day_090():
     def extract_text_from_pdf(pdf_path):
         # Open the PDF file
         with open(pdf_path, "rb") as f:
-            reader = PyPDF2.PdfReader(f)
+            reader = PdfReader(f)
             text = ""
 
             # Check if the PDF is encrypted

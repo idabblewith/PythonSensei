@@ -39,12 +39,12 @@ yfinance = "^0.2.41"
 sounddevice = "^0.5.0"
 gunicorn = "^23.0.0"
 flask-ckeditor = {extras = ["all"], version = "^1.0.0"}
-pypdf2 = "^3.0.1"
 pycryptodome = "^3.21.0"
 pygame = "^2.6.1"
 gtts = "^2.5.4"
 plotly = "^6.0.0"
 soundfile = "^0.13.1"
+pypdf = "^5.3.1"
 
 
 [build-system]
