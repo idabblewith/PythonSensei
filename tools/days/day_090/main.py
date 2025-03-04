@@ -4,9 +4,12 @@ from days.day_090.files.helpers import *
 def day_090():
     title("PDF TO AUDIOBOOK")
     import PyPDF2
-    import pyttsx3
+    from gtts import gTTS
     import os
     from PyPDF2.errors import PdfReadError
+    import tempfile
+    import platform
+    import subprocess
 
     def extract_text_from_pdf(pdf_path):
         # Open the PDF file
@@ -28,15 +31,28 @@ def day_090():
                 text += page.extract_text()
         return text
 
-    def text_to_speech(text, rate=200):
-        # Initialize the pyttsx3 engine
-        engine = pyttsx3.init()
-        # Set the speech rate (default is 200 words per minute)
-        engine.setProperty("rate", rate)
-        # Convert the text to speech
-        engine.say(text)
-        # Wait for the speech to complete
-        engine.runAndWait()
+    def text_to_speech(text, speed=1.0):
+        # Create a temporary file for the audio
+        temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
+        temp_file.close()
+
+        # Convert text to speech using gTTS
+        tts = gTTS(text=text, lang="en", slow=False)
+        tts.save(temp_file.name)
+
+        # Play the audio file using the appropriate command based on the OS
+        if platform.system() == "Darwin":  # macOS
+            subprocess.call(["afplay", temp_file.name])
+        elif platform.system() == "Linux":
+            subprocess.call(["mpg321", temp_file.name])
+        elif platform.system() == "Windows":
+            subprocess.call(["start", temp_file.name], shell=True)
+
+        # Note: The speed parameter isn't directly supported by gTTS
+        # Speed would need to be handled by the player or by pre-processing the audio
+
+        # Clean up the temporary file after playing (or handle as needed)
+        os.unlink(temp_file.name)
 
     if __name__ == "days.day_090.main":
         # Replace 'example.pdf' with your PDF file path
@@ -48,5 +64,5 @@ def day_090():
 
         # Convert text to speech
         nls("Converting text to speech...")
-        text_to_speech(pdf_text, 300)
+        text_to_speech(pdf_text)
         nls("Done!")
